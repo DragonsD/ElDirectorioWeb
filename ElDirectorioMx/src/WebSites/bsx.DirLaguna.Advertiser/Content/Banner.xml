@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<banner autoSlide="true" autoSlideInterval="10000" autoSlideStopWhenClicked="false" height="350" width="950">
+  <item>
+    <image></image>
+    <video></video>
+    <content>
+      &lt;a href="http://yahoo.com" target="_blank"&gt;Aqui un&lt;/a&gt; &lt;strong&gt;contenido le pongo mas cosas a ver &lt;a href="http://google.com" target="_blank"&gt;google asd adsfasdfasdf asdfasd &lt;/a&gt;&lt;br /&gt;
+      &lt;/strong&gt;
+    </content>
+    <link></link>
+  </item>
+  <item>
+    <image>~/contents/banner/vlcsnap-2010-12-29-23h14m17s182.png</image>
+    <video></video>
+    <content></content>
+    <link></link>
+  </item>
+  <item>
+    <image>~/contents/banner/vlcsnap-2011-01-25-20h41m16s72.png</image>
+    <video></video>
+    <content></content>
+    <link></link>
+  </item>
+  <item>
+    <image>~/contents/banner/vlcsnap-2011-01-25-20h40m45s2.png</image>
+    <video></video>
+    <content></content>
+    <link></link>
+  </item>
+  <item>
+    <image></image>
+    <video></video>
+    <content>
+      &lt;p&gt;
+      Contenido tambien&lt;/p&gt;
+      &lt;p&gt;
+      &lt;img alt="" src="/contents/inblogpost/a006f55cf29da7c776e6ceb05-1215042011.jpg" style="width: 552px; height: 676px;" /&gt;&lt;/p&gt;
+    </content>
+    <link></link>
+  </item>
+</banner>

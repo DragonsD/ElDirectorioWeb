@@ -1,0 +1,21 @@
+2013-04-04 10:55:52.8461|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 10:55:52.9344|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 10:55:54.6325|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 11:14:08.0790|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 11:14:08.1405|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 11:14:09.9804|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 12:51:14.5729|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 12:51:14.6440|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 12:51:15.5717|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 12:51:59.1645|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 12:51:59.1645|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 12:51:59.5415|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 12:54:43.7266|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 12:54:43.7266|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 12:54:43.9316|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 12:55:32.1254|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 12:55:32.1284|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 12:55:32.3014|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-04 13:05:13.7216|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-04 13:05:13.7456|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-04 13:05:14.1547|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto

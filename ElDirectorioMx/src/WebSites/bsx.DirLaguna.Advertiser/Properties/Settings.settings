@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="bsx.DirLaguna.Advertiser.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="bsx_DirLaguna_Advertiser_GorilaService_GorilaService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:5684/Service/GorilaService.asmx</Value>
+    </Setting>
+    <Setting Name="bsx_DirLaguna_Advertiser_ImageServicie_ImageService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7483/Service/ImageService.asmx</Value>
+    </Setting>
+    <Setting Name="EmailDataBanner" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">prjesushector@hotmail.com</Value>
+    </Setting>
+    <Setting Name="FromEmailBanner" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">jhpachecordz@gmail.com</Value>
+    </Setting>
+    <Setting Name="BankAccount" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

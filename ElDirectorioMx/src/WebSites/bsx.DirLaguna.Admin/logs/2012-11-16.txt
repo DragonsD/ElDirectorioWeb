@@ -1,0 +1,6 @@
+2012-11-16 13:21:47.6378|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-16 13:21:47.6458|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-16 13:21:47.8601|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-16 13:25:49.6145|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-16 13:25:49.6145|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-16 13:25:49.7930|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto

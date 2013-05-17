@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{023180EC-A93D-43DB-8EDF-9AE766C372AA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bsx.DirLaguna.Mobile</RootNamespace>
+    <AssemblyName>bsx.DirLaguna.Mobile</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdvertiserDisplay.aspx" />
+    <Content Include="AdvertiserForm.aspx" />
+    <Content Include="Categories.aspx" />
+    <Content Include="CategoryDisplay.aspx" />
+    <Content Include="ContactForm.aspx" />
+    <Content Include="content\base.css" />
+    <Content Include="content\coupons\default_large.jpg" />
+    <Content Include="content\coupons\default_medium.jpg" />
+    <Content Include="content\coupons\default_small.jpg" />
+    <Content Include="content\img\Back.png" />
+    <Content Include="content\img\BrowserNormal.png" />
+    <Content Include="content\img\Directorio.png" />
+    <Content Include="content\img\dIRECTORIO2.png" />
+    <Content Include="content\img\Facebook.png" />
+    <Content Include="content\img\FacebookNormal.png" />
+    <Content Include="content\img\featured.png" />
+    <Content Include="content\img\header2.png" />
+    <Content Include="content\img\MailNormal.png" />
+    <Content Include="content\img\Maps.png" />
+    <Content Include="content\img\NextBttn2.png" />
+    <Content Include="content\img\NextBttn.png" />
+    <Content Include="content\img\PhoneNormal.png" />
+    <Content Include="content\img\Twitter.png" />
+    <Content Include="content\img\TwitterNormal.png" />
+    <Content Include="content\layout.css" />
+    <Content Include="content\site.css" />
+    <Content Include="content\skeleton.css" />
+    <Content Include="Controls\ActiveCouponsControl.ascx" />
+    <Content Include="Controls\AdvertiserDetailControl.ascx" />
+    <Content Include="Controls\AdvertiserDisplayControl.ascx" />
+    <Content Include="Controls\AnnounceControl.ascx" />
+    <Content Include="Controls\CategoriesControl.ascx" />
+    <Content Include="Controls\CouponCategoriesControl.ascx" />
+    <Content Include="Controls\GalleryControl.ascx" />
+    <Content Include="Controls\LetterCategoriesControl.ascx" />
+    <Content Include="Controls\LoginControl.ascx" />
+    <Content Include="Controls\RelatedCouponsControl.ascx" />
+    <Content Include="CouponCategory.aspx" />
+    <Content Include="CouponDetail.aspx" />
+    <Content Include="CouponDisplay.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="App_Themes\mobil\main.css" />
+    <Content Include="FranchisesForm.aspx" />
+    <Content Include="images\apple-touch-icon-114x114_old.png" />
+    <Content Include="images\apple-touch-icon-72x72_old.png" />
+    <Content Include="images\apple-touch-icon_old.png" />
+    <Content Include="images\appstoreblue.png" />
+    <Content Include="images\BttnBuscar.png" />
+    <Content Include="images\ElDirectorio.png" />
+    <Content Include="images\apple-touch-icon-114x114.png" />
+    <Content Include="images\apple-touch-icon-72x72.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\favicon2.ico" />
+    <Content Include="images\googleplay.png" />
+    <Content Include="images\publylogo.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Politycs.aspx" />
+    <Content Include="Portada.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="RegisterIos.aspx" />
+    <Content Include="RememberMe.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\tabs.js" />
+    <Content Include="TermConditions.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvertiserDisplay.aspx.cs">
+      <DependentUpon>AdvertiserDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertiserDisplay.aspx.designer.cs">
+      <DependentUpon>AdvertiserDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdvertiserForm.aspx.cs">
+      <DependentUpon>AdvertiserForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdvertiserForm.aspx.designer.cs">
+      <DependentUpon>AdvertiserForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryDisplay.aspx.cs">
+      <DependentUpon>CategoryDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryDisplay.aspx.designer.cs">
+      <DependentUpon>CategoryDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CouponHelper.cs" />
+    <Compile Include="Code\Navigation.cs" />
+    <Compile Include="Code\PageCounter.cs" />
+    <Compile Include="ContactForm.aspx.cs">
+      <DependentUpon>ContactForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactForm.aspx.designer.cs">
+      <DependentUpon>ContactForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActiveCouponsControl.ascx.cs">
+      <DependentUpon>ActiveCouponsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ActiveCouponsControl.ascx.designer.cs">
+      <DependentUpon>ActiveCouponsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDetailControl.ascx.cs">
+      <DependentUpon>AdvertiserDetailControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDetailControl.ascx.designer.cs">
+      <DependentUpon>AdvertiserDetailControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDisplayControl.ascx.cs">
+      <DependentUpon>AdvertiserDisplayControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDisplayControl.ascx.designer.cs">
+      <DependentUpon>AdvertiserDisplayControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AnnounceControl.ascx.cs">
+      <DependentUpon>AnnounceControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AnnounceControl.ascx.designer.cs">
+      <DependentUpon>AnnounceControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CategoriesControl.ascx.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CategoriesControl.ascx.designer.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CouponCategoriesControl.ascx.cs">
+      <DependentUpon>CouponCategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CouponCategoriesControl.ascx.designer.cs">
+      <DependentUpon>CouponCategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GalleryControl.ascx.cs">
+      <DependentUpon>GalleryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\GalleryControl.ascx.designer.cs">
+      <DependentUpon>GalleryControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LetterCategoriesControl.ascx.cs">
+      <DependentUpon>LetterCategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LetterCategoriesControl.ascx.designer.cs">
+      <DependentUpon>LetterCategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoginControl.ascx.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoginControl.ascx.designer.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RelatedCouponsControl.ascx.cs">
+      <DependentUpon>RelatedCouponsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RelatedCouponsControl.ascx.designer.cs">
+      <DependentUpon>RelatedCouponsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponCategory.aspx.cs">
+      <DependentUpon>CouponCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponCategory.aspx.designer.cs">
+      <DependentUpon>CouponCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDetail.aspx.cs">
+      <DependentUpon>CouponDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDetail.aspx.designer.cs">
+      <DependentUpon>CouponDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDisplay.aspx.cs">
+      <DependentUpon>CouponDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDisplay.aspx.designer.cs">
+      <DependentUpon>CouponDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FranchisesForm.aspx.cs">
+      <DependentUpon>FranchisesForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FranchisesForm.aspx.designer.cs">
+      <DependentUpon>FranchisesForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\LoginHandler.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Politycs.aspx.cs">
+      <DependentUpon>Politycs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Politycs.aspx.designer.cs">
+      <DependentUpon>Politycs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portada.aspx.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portada.aspx.designer.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterIos.aspx.cs">
+      <DependentUpon>RegisterIos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterIos.aspx.designer.cs">
+      <DependentUpon>RegisterIos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RememberMe.aspx.cs">
+      <DependentUpon>RememberMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RememberMe.aspx.designer.cs">
+      <DependentUpon>RememberMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Base.Master.cs">
+      <DependentUpon>Base.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\Base.Master.designer.cs">
+      <DependentUpon>Base.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TermConditions.aspx.cs">
+      <DependentUpon>TermConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermConditions.aspx.designer.cs">
+      <DependentUpon>TermConditions.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\bsx.DirLaguna.CommonWeb\bsx.DirLaguna.CommonWeb.csproj">
+      <Project>{4840B853-577B-411D-B642-690771BDF43A}</Project>
+      <Name>bsx.DirLaguna.CommonWeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\bsx.DirLaguna.Dal\bsx.DirLaguna.Dal.csproj">
+      <Project>{B5AE1D11-6864-4DDA-ACED-D666030B7C54}</Project>
+      <Name>bsx.DirLaguna.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shared\Base.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3639</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

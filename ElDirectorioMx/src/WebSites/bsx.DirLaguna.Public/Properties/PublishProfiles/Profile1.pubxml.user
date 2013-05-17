@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2013-01-28T11:40:40.0000000-06:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="Admin/AccountForm.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Admin/AdvertiserForm.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Admin/BannerRequestForm.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Admin/GalleriesDisplay.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Admin/GalleryForm.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/Login.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/Logout.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/OfficeForm.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/OfficesDisplay.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/SignupForm.aspx">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Admin/Web.config">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.CommonWeb.dll">
+      <publishTime>01/28/2013 10:15:35</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.CommonWeb.pdb">
+      <publishTime>01/28/2013 10:15:35</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.Dal.dll">
+      <publishTime>01/28/2013 10:15:35</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.Dal.pdb">
+      <publishTime>01/28/2013 10:15:35</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.Public.dll">
+      <publishTime>01/28/2013 10:16:20</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.Public.pdb">
+      <publishTime>01/28/2013 10:16:20</publishTime>
+    </File>
+    <File Include="bin/bsx.DirLaguna.Public.XmlSerializers.dll">
+      <publishTime>01/28/2013 10:16:21</publishTime>
+    </File>
+    <File Include="bin/NLog.config">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>11/09/2012 16:27:53</publishTime>
+    </File>
+    <File Include="Blueprint/ie.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/buttons/icons/cross.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/buttons/icons/key.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/buttons/icons/tick.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/buttons/readme.txt">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/buttons/screen.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/fancy-type/readme.txt">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/fancy-type/screen.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/doc.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/email.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/external.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/feed.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/im.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/lock.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/pdf.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/visited.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/icons/xls.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/readme.txt">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/link-icons/screen.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/rtl/readme.txt">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/plugins/rtl/screen.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/print.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/screen.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/src/forms.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/src/grid.css">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/src/grid.png">
+      <publishTime>11/09/2012 16:26:51</publishTime>
+    </File>
+    <File Include="Blueprint/src/ie.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Blueprint/src/print.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Blueprint/src/reset.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Blueprint/src/typography.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="CategoryDisplay.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="ContactForm.aspx">
+      <publishTime>11/26/2012 21:37:24</publishTime>
+    </File>
+    <File Include="Content/Banner.xml">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/coupons/default_large.jpg">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/coupons/default_medium.jpg">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/coupons/default_small.jpg">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_flat_0_eeeeee_40x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_flat_55_ffffff_40x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_highlight-soft_25_3185e5_1x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-bg_highlight-soft_50_dddddd_1x100.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-icons_0073ea_256x240.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-icons_454545_256x240.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-icons_666666_256x240.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-icons_ff0084_256x240.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/images/ui-icons_ffffff_256x240.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/azul/jquery-ui-1.8.17.custom.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/coda-slider-2.0.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/coda/anterior.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/coda/bannerTab.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/coda/bannerTabActive.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/coda/pagina.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/coda/siguiente.png">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/img/buscar.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/buscar2.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/buscar3.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/fondoListado.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/headerBack.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/liston.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/patron-header.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/patron-header2.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/patron-header3.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/seperator-bottom-980.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/img/UbicaNegocio.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css/site.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css/special.css">
+      <publishTime>11/09/2012 16:26:52</publishTime>
+    </File>
+    <File Include="Content/css2/favicon.ico">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/abc.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/BackgroundBlueFull.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/BlueRibbonMenu.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/css2/img/bottom1.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/ContentGreyBoxes/bottom.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/ContentGreyBoxes/bottomList.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/ContentGreyBoxes/middle.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/ContentGreyBoxes/top.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/css2/img/ContentGreyBoxes/topList.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/favicon.ico">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/greyboxes/Bottom.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/greyboxes/middle.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/greyboxes/top.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/HomeCategories.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/HomeCategories2.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/LogoElDirectorio.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/menu-active-btn_l.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/menu-active-btn_r.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/menu-btn_l.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/menu-btn_r.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/SearchArea.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/SearchBackground.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/img/searchbar.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/css2/img/searchbutton.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/css2/img/top1.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/css2/img/top2.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/css2/site.css">
+      <publishTime>11/26/2012 22:22:47</publishTime>
+    </File>
+    <File Include="Content/Image/admin.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/Image/ajax-loader.gif">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/Image/facebook.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/facebook2.png">
+      <publishTime>11/09/2012 16:26:53</publishTime>
+    </File>
+    <File Include="Content/Image/favicon.ico">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/featured.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/GrupoImagen.jpg">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/html.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/IconFacebook.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/IconMail.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/IconTwitter.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/logoDirectorioLaguna.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/LogoElDirectorio.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/LogoPubly.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/magnifier-left.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/mapa.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/printer.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/prospectacion.png">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Content/Image/twitter.png">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Content/Image/twitter2.png">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/ActiveCouponsControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/AdvertiserDetailControl.ascx">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Controls/AdvertiserDisplay.ascx">
+      <publishTime>01/17/2013 16:21:05</publishTime>
+    </File>
+    <File Include="Controls/AdvertiserHeaderControl.ascx">
+      <publishTime>11/09/2012 16:26:54</publishTime>
+    </File>
+    <File Include="Controls/AnnounceControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/CategoriesControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/coda_slider.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/CouponCategoriesControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/GalleryControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/LetterCategoriesControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/LoginAdminControl.ascx">
+      <publishTime>11/09/2012 16:26:55</publishTime>
+    </File>
+    <File Include="Controls/LoginControl.ascx">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Controls/MapControl.ascx">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Controls/MenuControl.ascx">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Controls/RelatedCouponsControl.ascx">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="CouponDetail.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="CouponDisplay.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="CouponPrint.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/24/2013 12:29:38</publishTime>
+    </File>
+    <File Include="DetailForm.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="FranchiseeForm.aspx">
+      <publishTime>11/09/2012 16:26:48</publishTime>
+    </File>
+    <File Include="FranchisesForm.aspx">
+      <publishTime>11/26/2012 21:52:20</publishTime>
+    </File>
+    <File Include="HomeForm.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="Logout.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="Magazine.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="Magazine/config.xml">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Magazine/FlipBook.swf">
+      <publishTime>11/09/2012 16:26:57</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/017.jpg">
+      <publishTime>11/09/2012 16:26:59</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/6.swf">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/BackCover.jpg">
+      <publishTime>11/09/2012 16:26:57</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/cat.jpg">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/dog.jpg">
+      <publishTime>11/09/2012 16:26:59</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/flower1.jpg">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/flower2.jpg">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/MainCover.swf">
+      <publishTime>11/09/2012 16:26:59</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/ns.jpg">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/page2.swf">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/page3.swf">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/page4.swf">
+      <publishTime>11/09/2012 16:27:02</publishTime>
+    </File>
+    <File Include="Magazine/page_asset/sea.jpg">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Magazine/preview.swf">
+      <publishTime>11/09/2012 16:27:05</publishTime>
+    </File>
+    <File Include="Magazine/swfobject.js">
+      <publishTime>11/09/2012 16:26:56</publishTime>
+    </File>
+    <File Include="MessageSentForm.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="NLog.config">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Politycs.aspx">
+      <publishTime>11/09/2012 16:26:49</publishTime>
+    </File>
+    <File Include="Portada.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="RememberMe.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Scripts/images/lightbox-blank.gif">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/images/lightbox-btn-close.gif">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Scripts/images/lightbox-btn-next.gif">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Scripts/images/lightbox-btn-prev.gif">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Scripts/images/lightbox-ico-loading.gif">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.coda-slider-2.0.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.combobox.packed.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.easing.1.3.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.lightbox-0.5.css">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.lightbox-0.5.min.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery.placeholder.js">
+      <publishTime>11/09/2012 16:27:00</publishTime>
+    </File>
+    <File Include="SearchResultForm.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Shared/Admin.master">
+      <publishTime>11/09/2012 16:27:02</publishTime>
+    </File>
+    <File Include="Shared/Base.Master">
+      <publishTime>01/24/2013 12:29:38</publishTime>
+    </File>
+    <File Include="Shared/NestedBaseMasterPage.master">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="Shared/Special.Master">
+      <publishTime>11/09/2012 16:27:01</publishTime>
+    </File>
+    <File Include="TermConditions.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="UserAlreadyExist.aspx">
+      <publishTime>11/09/2012 16:26:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/28/2013 11:40:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyFlipBook>
+	<Settings>
+		<!--The proportion of your page's width and height-->
+		<proportion>370:463</proportion>
+		<!--Max width of zoom in-->
+		<max_zoom_width>1920</max_zoom_width>
+		<!--zoom in 50% per step-->
+		<zoom_scale_per_step>0.5</zoom_scale_per_step>
+		<!--Book's margin-->
+		<margin>160</margin>
+		<!--Default book's middle shadow alpha , if use "0" ,no shadow -->
+		<global_middle_shadow_alpha>0.6</global_middle_shadow_alpha>
+		<!--If allow bitmap smoothing-->
+		<bitmap_smoothing>true</bitmap_smoothing>
+		<!--If book's cover zoomable, default - false -->
+		<book_cover_zoom_able>true</book_cover_zoom_able>
+		<!---->
+		<Hyperlink>http://activeden.net/</Hyperlink>
+	</Settings>
+	<Pages>
+		<page>
+			<pageType>single</pageType>
+			<pageURL>http://localhost:2552/content/017.jpg</pageURL>
+		</page>
+        <page>
+            <pageType>single</pageType>
+            <pageURL>http://localhost:2552/content/017.jpg</pageURL>
+        </page>
+
+        <page>
+            <pageType>single</pageType>
+            <pageURL>http://localhost:2552/content/017.jpg</pageURL>
+        </page>
+        <page>
+            <pageType>single</pageType>
+            <pageURL>http://localhost:2552/content/017.jpg</pageURL>
+        </page>
+
+        <page>
+            <pageType>single</pageType>
+            <pageURL>http://localhost:2552/content/017.jpg</pageURL>
+        </page>
+        <page>
+            <pageType>single</pageType>
+            <pageURL>http://localhost:2552/content/017.jpg</pageURL>
+        </page>
+        
+        <!--<page>
+			<pageType>single</pageType>
+			<pageURL>magazine/page_asset/page2.swf</pageURL>
+		</page>
+		<page>
+			<pageType>single</pageType>
+			<pageURL>magazine/page_asset/page3.swf</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0.7</middle_shadow_alpha>
+			<pageURL>magazine/page_asset/page4.swf</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<pageURL>page_asset/ns.jpg</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0</middle_shadow_alpha>
+			<pageURL>page_asset/sea.jpg</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0</middle_shadow_alpha>
+			<pageURL>magazine/page_asset/6.swf</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0.7</middle_shadow_alpha>
+			<pageURL>magazine/page_asset/cat.jpg</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0</middle_shadow_alpha>
+			<pageURL>magazine/page_asset/dog.jpg</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<middle_shadow_alpha>0</middle_shadow_alpha>
+			<pageURL>magazine/page_asset/flower1.jpg</pageURL>
+		</page>
+		<page>
+			<pageType>double</pageType>
+			<pageURL>magazine/page_asset/flower2.jpg</pageURL>
+		</page>
+		
+		<page>
+			<pageType>single</pageType>
+			<pageURL>magazine/page_asset/BackCover.jpg</pageURL>
+		</page>
+		-->
+		
+	</Pages>
+
+</MyFlipBook>

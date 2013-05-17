@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Shared/Base.Master" AutoEventWireup="true"
+    CodeBehind="Normal.master.cs" Inherits="bsx.DirLaguna.Admin.Shared.Normal" %>
+
+<%@ Register Src="../Controls/MenuControl.ascx" TagName="Menu" TagPrefix="bsx" %>
+<%@ MasterType virtualPath="~/Shared/Base.master"%>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="header">
+        <div id="headerContainer">
+            <h1 id="logo">
+                <a id="home" title="Admin Directorio Laguna" href='<%=this.GetHome()%>'>
+                    <%--<span>
+                            <%= Resources.Resource.TextNameSystemInvoices %></span>--%>
+                    <asp:Image ID="LogoImage" runat="server" ImageUrl="~/Content/Images/LogoElDirectorio.png"
+                        AlternateText="" />
+                </a>
+            </h1>
+            <div id="header_buttons">
+                <a href="#"><span>Ayuda</span></a> <span class="link-separator">
+                    | </span>
+                <asp:PlaceHolder ID="LoggedUserMenu" runat="server" Visible="false">
+                    <asp:HyperLink ID="ProfileHyperLink" runat="server" NavigateUrl="~/Core/ChangePasswordForm.aspx">
+                        <asp:LoginName ID="loginName" CssClass="userNameLabel" runat="server" />
+                    </asp:HyperLink>
+                    <span class="link-separator">| </span><span></span>
+                    <asp:LoginStatus ID="LoginStatus1" LogoutText="Cerrar Sesion" LoginText="Iniciar Sesion"
+                        LogoutPageUrl="/Logout.aspx" LogoutAction="Redirect" runat="server" />
+                </asp:PlaceHolder>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div id="mainMenuHeader">
+            <bsx:Menu ID="Menu1" runat="server" />
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container">
+            <div class="innerContainer">
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                <div style="clear: both;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <span class="quiet">El Directorio Virtual © Copyright 2012, desarrollado por</span> <a href="http://publysorpresas.com.mx/">
+                    Publysorpresas</a> | <a href="#">Ayuda</a><br />
+                <asp:PlaceHolder ID="FooterPlaceHolder" runat="server" Visible="false">
+                    © 2012 <strong>ElDirectorio.com</strong> </asp:PlaceHolder>
+            </div>
+        </div>
+    </div>
+</asp:Content>

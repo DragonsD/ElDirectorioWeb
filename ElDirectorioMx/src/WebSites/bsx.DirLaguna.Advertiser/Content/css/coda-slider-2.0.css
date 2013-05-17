@@ -1,0 +1,43 @@
+﻿/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+/* Most common stuff you'll need to change */
+	.coda-slider-wrapper { padding: 0;position:relative;}
+	.coda-slider { }
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panelCoda { width: 950px;height:500px;overflow:hidden; } 
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panelCoda { width: 950px;height:350px; }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 0px }
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { color: #fff; padding: 0; width: 16px; border:0;}
+	.coda-nav-left, .coda-nav-right {position:absolute; bottom:15px; right:25px; z-index:1000; }
+	.coda-nav{position:absolute; bottom:15px;}
+	
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background-image:url(coda/pagina.png) }
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	/* Preloader */
+	.coda-slider p.loading { padding: 0px; text-align: center }
+/* Don't change anything below here unless you know what you're doing */
+	/* Tabbed nav */
+	.coda-nav ul { display: block; overflow: hidden; float:right;margin-right:42px;}
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background:url(coda/pagina.png) no-repeat top left; color: #fff; width:20px; height:20px; text-align:center; line-height:1.5; display:block; float: left; margin-right: 1px;  text-decoration: none; }
+	/* Miscellaneous */
+	.coda-slider-wrapper { margin: 0 auto;  height:350px; overflow: hidden; }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panelCoda { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { /*float: right*/ }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	/*custom*/
+	.coda-slider h2.title { display: none }

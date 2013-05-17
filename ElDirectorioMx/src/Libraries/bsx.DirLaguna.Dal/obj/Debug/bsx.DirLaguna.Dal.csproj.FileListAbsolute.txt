@@ -1,0 +1,17 @@
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll.config
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.pdb
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.dll
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.pdb
+D:\data\projects\Publysorpresas\DirectorioLaguna\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll.config
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.pdb
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.pdb
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll.config
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.dll
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Debug\bsx.DirLaguna.Dal.pdb
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.dll
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.pdb
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Debug\bsx.DirLaguna.Dal.csprojResolveAssemblyReference.cache

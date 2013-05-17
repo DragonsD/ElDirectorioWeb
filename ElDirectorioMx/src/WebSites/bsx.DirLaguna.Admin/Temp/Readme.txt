@@ -1,0 +1,1 @@
+﻿Directorio de trabajo para hacer la bd de sqlite.

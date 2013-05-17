@@ -1,0 +1,57 @@
+2012-11-23 11:56:06.0409|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-23 11:56:06.0499|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-23 11:56:06.2420|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-23 11:57:53.5166|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-23 11:57:53.5166|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-23 11:59:04.2372|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-23 12:00:48.9663|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-23 12:00:48.9663|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-23 12:00:51.7453|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-23 12:04:06.7570|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-23 12:04:06.7570|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-23 12:04:06.8363|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-23 13:34:19.8914|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-23 13:34:20.0875|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=2973&ft_id=0&ve_desc=Sucursales adicionales (1)
+Numero de Galerias (1)
+Numero de destacados
+Numero de Cuponeras (1)
+Aparecer en el Sitio Web
+Aparecer en la App iOs 
+Contenido enriquecido
+Banner 1
+Banner 2
+Banner 3
+Banner 4
+Aparecer en la App Android
+Categorias adicionales (1)
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=240&ds_intnum=&ds_colonia=Centro&ds_ciudad=Loreto&ds_estado=Baja California Sur&ds_cp=35000&ds_rfc=ROOJ830225G15&ds_razonsocial=Datos fiscales de prueba
+2012-11-23 13:34:21.3802|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|	<p>ERROR1</p>
+2012-11-23 13:34:21.3802|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-23 13:47:08.6891|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-23 13:47:08.9282|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=2973&ft_id=0&ve_desc=Sucursales adicionales (1)
+Numero de Galerias (1)
+Numero de destacados
+Numero de Cuponeras (1)
+Aparecer en el Sitio Web
+Aparecer en la App iOs 
+Contenido enriquecido
+Aparecer en la App Android
+Categorias adicionales (1)
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=240&ds_intnum=&ds_colonia=Centro&ds_ciudad=Loreto&ds_estado=Baja California Sur&ds_cp=35000&ds_rfc=ROOJ830225G15&ds_razonsocial=Datos fiscales de prueba
+2012-11-23 13:47:09.1252|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|	<p>ERROR1</p>
+2012-11-23 13:47:09.1252|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-23 13:51:04.1281|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-23 13:51:04.2421|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=2974&ft_id=0&ve_desc=Categorias adicionales (3)
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=Tiro al blanco&ds_extnum=240&ds_intnum=&ds_colonia=Fracc. La Feria&ds_ciudad=Gómez Palacio&ds_estado=Durango&ds_cp=35049&ds_rfc=XAXX010101000&ds_razonsocial=Bisimplex Technologies S. de R.L.
+2012-11-23 13:51:04.4342|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|	<p>ERROR1</p>
+2012-11-23 13:51:04.4392|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-23 14:05:11.9531|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-23 14:05:12.1112|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=2975&ft_id=0&ve_desc=Numero de destacados
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=Tiro al blanco&ds_extnum=240&ds_intnum=&ds_colonia=Fracc. La Feria&ds_ciudad=Gómez Palacio&ds_estado=Durango&ds_cp=35049&ds_rfc=XAXX010101000&ds_razonsocial=Bisimplex Technologies S. de R.L.
+2012-11-23 14:05:14.7172|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|	<p>ERROR1</p>
+2012-11-23 14:05:14.7172|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-23 14:06:15.1241|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-23 14:06:15.2041|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=2976&ft_id=0&ve_desc=Numero de destacados (2)
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=Tiro al blanco&ds_extnum=240&ds_intnum=&ds_colonia=Fracc. La Feria&ds_ciudad=Gómez Palacio&ds_estado=Durango&ds_cp=35049&ds_rfc=XAXX010101000&ds_razonsocial=Bisimplex Technologies S. de R.L.
+2012-11-23 14:06:15.5902|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|	<p>ERROR1</p>
+2012-11-23 14:06:15.5962|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error

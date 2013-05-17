@@ -1,0 +1,1 @@
+﻿Contenido defualt para formar la carpeta en el release

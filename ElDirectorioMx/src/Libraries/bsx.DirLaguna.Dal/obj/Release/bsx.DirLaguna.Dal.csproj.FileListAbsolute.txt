@@ -1,0 +1,16 @@
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll.config
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.pdb
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Fake\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.pdb
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll.config
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.pdb
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.pdb
+C:\Users\Reiter\Desktop\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll.config
+C:\Users\Reiter\Desktop\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Desktop\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\bin\Release\bsx.DirLaguna.Dal.pdb
+C:\Users\Reiter\Desktop\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.dll
+C:\Users\Reiter\Desktop\ProyectoElDirectorio\ElDirectorioMx\src\Libraries\bsx.DirLaguna.Dal\obj\Release\bsx.DirLaguna.Dal.pdb

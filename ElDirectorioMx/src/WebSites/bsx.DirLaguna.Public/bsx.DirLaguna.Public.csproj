@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{417362CE-6832-4893-A2FC-8EC8AE18A89B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bsx.DirLaguna.Public</RootNamespace>
+    <AssemblyName>bsx.DirLaguna.Public</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\..\Items\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Admin\AccountForm.aspx" />
+    <Content Include="Admin\AdvertiserForm.aspx" />
+    <Content Include="Admin\BannerRequestForm.aspx" />
+    <Content Include="Admin\GalleriesDisplay.aspx" />
+    <Content Include="Admin\GalleryForm.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Logout.aspx" />
+    <Content Include="Admin\OfficeForm.aspx" />
+    <Content Include="Admin\OfficesDisplay.aspx" />
+    <Content Include="Admin\SignupForm.aspx" />
+    <Content Include="Blueprint\ie.css" />
+    <Content Include="Content\coupons\default_large.jpg" />
+    <Content Include="Content\coupons\default_medium.jpg" />
+    <Content Include="Content\coupons\default_small.jpg" />
+    <Content Include="Content\css2\favicon.ico" />
+    <Content Include="Content\css2\img\abc.png" />
+    <Content Include="Content\css2\img\BackgroundBlueFull.png" />
+    <Content Include="Content\css2\img\BlueRibbonMenu.png" />
+    <Content Include="Content\css2\img\bottom1.png" />
+    <Content Include="Content\css2\img\ContentGreyBoxes\bottom.png" />
+    <Content Include="Content\css2\img\ContentGreyBoxes\bottomList.png" />
+    <Content Include="Content\css2\img\ContentGreyBoxes\middle.png" />
+    <Content Include="Content\css2\img\ContentGreyBoxes\top.png" />
+    <Content Include="Content\css2\img\ContentGreyBoxes\topList.png" />
+    <Content Include="Content\css2\img\favicon.ico" />
+    <Content Include="Content\css2\img\greyboxes\Bottom.png" />
+    <Content Include="Content\css2\img\greyboxes\middle.png" />
+    <Content Include="Content\css2\img\greyboxes\top.png" />
+    <Content Include="Content\css2\img\HomeCategories.png" />
+    <Content Include="Content\css2\img\HomeCategories2.png" />
+    <Content Include="Content\css2\img\LogoElDirectorio.png" />
+    <Content Include="Content\css2\img\menu-active-btn_l.png" />
+    <Content Include="Content\css2\img\menu-active-btn_r.png" />
+    <Content Include="Content\css2\img\menu-btn_l.png" />
+    <Content Include="Content\css2\img\menu-btn_r.png" />
+    <Content Include="Content\css2\img\SearchArea.png" />
+    <Content Include="Content\css2\img\SearchBackground.png" />
+    <Content Include="Content\css2\img\searchbar.png" />
+    <Content Include="Content\css2\img\searchbutton.png" />
+    <Content Include="Content\css2\img\top1.png" />
+    <Content Include="Content\css2\img\top2.png" />
+    <Content Include="Content\css2\site.css" />
+    <Content Include="Content\css\special.css" />
+    <Content Include="Content\Image\admin.png" />
+    <Content Include="Content\Image\ajax-loader.gif" />
+    <Content Include="Content\Image\facebook2.png" />
+    <Content Include="Content\Image\featured.png" />
+    <Content Include="Content\Image\GrupoImagen.jpg" />
+    <Content Include="Content\Image\magnifier-left.png" />
+    <Content Include="Content\Image\favicon.ico" />
+    <Content Include="Content\Image\LogoElDirectorio.png" />
+    <Content Include="Content\Image\LogoPubly.png" />
+    <Content Include="Content\Image\printer.png" />
+    <Content Include="Content\Image\prospectacion.png" />
+    <Content Include="Content\Image\twitter2.png" />
+    <Content Include="Controls\ActiveCouponsControl.ascx" />
+    <Content Include="Controls\AdvertiserHeaderControl.ascx" />
+    <Content Include="Controls\AnnounceControl.ascx" />
+    <Content Include="Controls\CouponCategoriesControl.ascx" />
+    <Content Include="Controls\DisplayPublicity.ascx" />
+    <Content Include="Controls\LoginAdminControl.ascx" />
+    <Content Include="Controls\LoginClub.ascx" />
+    <Content Include="Controls\LoginControl.ascx" />
+    <Content Include="Controls\MapControl.ascx" />
+    <Content Include="Controls\PublicityControl.ascx" />
+    <Content Include="Controls\RelatedCouponsControl.ascx" />
+    <Content Include="CouponDetail.aspx" />
+    <Content Include="CouponDetailClub.aspx" />
+    <Content Include="CouponDisplay.aspx" />
+    <Content Include="CouponDisplayDirectorio.aspx" />
+    <Content Include="CouponPrint.aspx" />
+    <Content Include="FranchiseeForm.aspx" />
+    <Content Include="FranchisesForm.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginDirectorio.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Magazine.aspx" />
+    <Content Include="Magazine\config.xml" />
+    <Content Include="Magazine\FlipBook.swf" />
+    <Content Include="Magazine\page_asset\017.jpg" />
+    <Content Include="Magazine\page_asset\6.swf" />
+    <Content Include="Magazine\page_asset\BackCover.jpg" />
+    <Content Include="Magazine\page_asset\cat.jpg" />
+    <Content Include="Magazine\page_asset\dog.jpg" />
+    <Content Include="Magazine\page_asset\flower1.jpg" />
+    <Content Include="Magazine\page_asset\flower2.jpg" />
+    <Content Include="Magazine\page_asset\MainCover.swf" />
+    <Content Include="Magazine\page_asset\ns.jpg" />
+    <Content Include="Magazine\page_asset\page2.swf" />
+    <Content Include="Magazine\page_asset\page3.swf" />
+    <Content Include="Magazine\page_asset\page4.swf" />
+    <Content Include="Magazine\page_asset\sea.jpg" />
+    <Content Include="Magazine\preview.swf" />
+    <Content Include="Magazine\swfobject.js" />
+    <Content Include="MessageSentForm.aspx" />
+    <Content Include="Politycs.aspx" />
+    <Content Include="Portada.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="RegisterClub.aspx" />
+    <Content Include="RememberMe.aspx" />
+    <Content Include="Scripts\images\lightbox-blank.gif" />
+    <Content Include="Scripts\images\lightbox-btn-close.gif" />
+    <Content Include="Scripts\images\lightbox-btn-next.gif" />
+    <Content Include="Scripts\images\lightbox-btn-prev.gif" />
+    <Content Include="Scripts\images\lightbox-ico-loading.gif" />
+    <Content Include="Scripts\jquery.lightbox-0.5.css" />
+    <Content Include="Blueprint\plugins\buttons\icons\cross.png" />
+    <Content Include="Blueprint\plugins\buttons\icons\key.png" />
+    <Content Include="Blueprint\plugins\buttons\icons\tick.png" />
+    <Content Include="Blueprint\plugins\buttons\readme.txt" />
+    <Content Include="Blueprint\plugins\buttons\screen.css" />
+    <Content Include="Blueprint\plugins\fancy-type\readme.txt" />
+    <Content Include="Blueprint\plugins\fancy-type\screen.css" />
+    <Content Include="Blueprint\plugins\link-icons\icons\doc.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\email.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\external.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\feed.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\im.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\lock.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\pdf.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\visited.png" />
+    <Content Include="Blueprint\plugins\link-icons\icons\xls.png" />
+    <Content Include="Blueprint\plugins\link-icons\readme.txt" />
+    <Content Include="Blueprint\plugins\link-icons\screen.css" />
+    <Content Include="Blueprint\plugins\rtl\readme.txt" />
+    <Content Include="Blueprint\plugins\rtl\screen.css" />
+    <Content Include="Blueprint\print.css" />
+    <Content Include="Blueprint\screen.css" />
+    <Content Include="Blueprint\src\forms.css" />
+    <Content Include="Blueprint\src\grid.css" />
+    <Content Include="Blueprint\src\grid.png" />
+    <Content Include="Blueprint\src\ie.css" />
+    <Content Include="Blueprint\src\print.css" />
+    <Content Include="Blueprint\src\reset.css" />
+    <Content Include="Blueprint\src\typography.css" />
+    <Content Include="CategoryDisplay.aspx" />
+    <Content Include="ContactForm.aspx" />
+    <Content Include="Content\Banner.xml" />
+    <Content Include="Content\css\azul\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_flat_0_eeeeee_40x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_flat_55_ffffff_40x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\css\azul\images\ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_highlight-soft_25_3185e5_1x100.png" />
+    <Content Include="Content\css\azul\images\ui-bg_highlight-soft_50_dddddd_1x100.png" />
+    <Content Include="Content\css\azul\images\ui-icons_0073ea_256x240.png" />
+    <Content Include="Content\css\azul\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\css\azul\images\ui-icons_666666_256x240.png" />
+    <Content Include="Content\css\azul\images\ui-icons_ff0084_256x240.png" />
+    <Content Include="Content\css\azul\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\css\azul\jquery-ui-1.8.17.custom.css" />
+    <Content Include="Content\css\coda-slider-2.0.css" />
+    <Content Include="Content\css\coda\anterior.png" />
+    <Content Include="Content\css\coda\bannerTab.png" />
+    <Content Include="Content\css\coda\bannerTabActive.png" />
+    <Content Include="Content\css\coda\pagina.png" />
+    <Content Include="Content\css\coda\siguiente.png" />
+    <Content Include="Content\css\img\buscar.png" />
+    <Content Include="Content\css\img\buscar2.png" />
+    <Content Include="Content\css\img\buscar3.png" />
+    <Content Include="Content\css\img\fondoListado.png" />
+    <Content Include="Content\css\img\liston.png" />
+    <Content Include="Content\css\img\patron-header.png" />
+    <Content Include="Content\css\img\patron-header2.png" />
+    <Content Include="Content\css\img\patron-header3.png" />
+    <Content Include="Content\css\img\seperator-bottom-980.png" />
+    <Content Include="Content\css\img\UbicaNegocio.png" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\css\img\headerBack.png" />
+    <Content Include="Content\Image\facebook.png" />
+    <Content Include="Content\Image\html.png" />
+    <Content Include="Content\Image\IconFacebook.png" />
+    <Content Include="Content\Image\IconMail.png" />
+    <Content Include="Content\Image\IconTwitter.png" />
+    <Content Include="Content\Image\logoDirectorioLaguna.png" />
+    <Content Include="Content\Image\mapa.png" />
+    <Content Include="Content\Image\twitter.png" />
+    <Content Include="Controls\AdvertiserDetailControl.ascx" />
+    <Content Include="Controls\AdvertiserDisplay.ascx" />
+    <Content Include="Controls\CategoriesControl.ascx" />
+    <Content Include="Controls\coda_slider.ascx" />
+    <Content Include="Controls\GalleryControl.ascx" />
+    <Content Include="Controls\LetterCategoriesControl.ascx" />
+    <Content Include="Controls\MenuControl.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DetailForm.aspx" />
+    <Content Include="HomeForm.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.coda-slider-2.0.js" />
+    <Content Include="Scripts\jquery.combobox.packed.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\jquery.lightbox-0.5.min.js" />
+    <Content Include="Scripts\jquery.placeholder.js" />
+    <Content Include="SearchResultForm.aspx" />
+    <Content Include="TermConditions.aspx" />
+    <Content Include="UserAlreadyExist.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AccountForm.aspx.cs">
+      <DependentUpon>AccountForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AccountForm.aspx.designer.cs">
+      <DependentUpon>AccountForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdvertiserForm.aspx.cs">
+      <DependentUpon>AdvertiserForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdvertiserForm.aspx.designer.cs">
+      <DependentUpon>AdvertiserForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BannerRequestForm.aspx.cs">
+      <DependentUpon>BannerRequestForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BannerRequestForm.aspx.designer.cs">
+      <DependentUpon>BannerRequestForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GalleriesDisplay.aspx.cs">
+      <DependentUpon>GalleriesDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GalleriesDisplay.aspx.designer.cs">
+      <DependentUpon>GalleriesDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GalleryForm.aspx.cs">
+      <DependentUpon>GalleryForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GalleryForm.aspx.designer.cs">
+      <DependentUpon>GalleryForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OfficeForm.aspx.cs">
+      <DependentUpon>OfficeForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OfficeForm.aspx.designer.cs">
+      <DependentUpon>OfficeForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OfficesDisplay.aspx.cs">
+      <DependentUpon>OfficesDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OfficesDisplay.aspx.designer.cs">
+      <DependentUpon>OfficesDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SignupForm.aspx.cs">
+      <DependentUpon>SignupForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SignupForm.aspx.designer.cs">
+      <DependentUpon>SignupForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryDisplay.aspx.cs">
+      <DependentUpon>CategoryDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryDisplay.aspx.designer.cs">
+      <DependentUpon>CategoryDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Alert.cs" />
+    <Compile Include="Code\BannerItem.cs" />
+    <Compile Include="Code\ConceptDetail.cs" />
+    <Compile Include="Code\ConceptItemCollection.cs" />
+    <Compile Include="Code\CouponHelper.cs" />
+    <Compile Include="Code\Navigation.cs" />
+    <Compile Include="Code\PageCounter.cs" />
+    <Compile Include="Code\PublicityHelper.cs" />
+    <Compile Include="Code\SimpleConceptItem.cs" />
+    <Compile Include="ContactForm.aspx.cs">
+      <DependentUpon>ContactForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactForm.aspx.designer.cs">
+      <DependentUpon>ContactForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActiveCouponsControl.ascx.cs">
+      <DependentUpon>ActiveCouponsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ActiveCouponsControl.ascx.designer.cs">
+      <DependentUpon>ActiveCouponsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDetailControl.ascx.cs">
+      <DependentUpon>AdvertiserDetailControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDetailControl.ascx.designer.cs">
+      <DependentUpon>AdvertiserDetailControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDisplay.ascx.cs">
+      <DependentUpon>AdvertiserDisplay.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvertiserDisplay.ascx.designer.cs">
+      <DependentUpon>AdvertiserDisplay.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvertiserHeaderControl.ascx.cs">
+      <DependentUpon>AdvertiserHeaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvertiserHeaderControl.ascx.designer.cs">
+      <DependentUpon>AdvertiserHeaderControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AnnounceControl.ascx.cs">
+      <DependentUpon>AnnounceControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AnnounceControl.ascx.designer.cs">
+      <DependentUpon>AnnounceControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CategoriesControl.ascx.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CategoriesControl.ascx.designer.cs">
+      <DependentUpon>CategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\coda_slider.ascx.cs">
+      <DependentUpon>coda_slider.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\coda_slider.ascx.designer.cs">
+      <DependentUpon>coda_slider.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CouponCategoriesControl.ascx.cs">
+      <DependentUpon>CouponCategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CouponCategoriesControl.ascx.designer.cs">
+      <DependentUpon>CouponCategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DisplayPublicity.ascx.cs">
+      <DependentUpon>DisplayPublicity.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DisplayPublicity.ascx.designer.cs">
+      <DependentUpon>DisplayPublicity.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GalleryControl.ascx.cs">
+      <DependentUpon>GalleryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\GalleryControl.ascx.designer.cs">
+      <DependentUpon>GalleryControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LetterCategoriesControl.ascx.cs">
+      <DependentUpon>LetterCategoriesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LetterCategoriesControl.ascx.designer.cs">
+      <DependentUpon>LetterCategoriesControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoginAdminControl.ascx.cs">
+      <DependentUpon>LoginAdminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoginAdminControl.ascx.designer.cs">
+      <DependentUpon>LoginAdminControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoginClub.ascx.cs">
+      <DependentUpon>LoginClub.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoginClub.ascx.designer.cs">
+      <DependentUpon>LoginClub.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoginControl.ascx.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoginControl.ascx.designer.cs">
+      <DependentUpon>LoginControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapControl.ascx.cs">
+      <DependentUpon>MapControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MapControl.ascx.designer.cs">
+      <DependentUpon>MapControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuControl.ascx.cs">
+      <DependentUpon>MenuControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuControl.ascx.designer.cs">
+      <DependentUpon>MenuControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PublicityControl.ascx.cs">
+      <DependentUpon>PublicityControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PublicityControl.ascx.designer.cs">
+      <DependentUpon>PublicityControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RelatedCouponsControl.ascx.cs">
+      <DependentUpon>RelatedCouponsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RelatedCouponsControl.ascx.designer.cs">
+      <DependentUpon>RelatedCouponsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDetail.aspx.cs">
+      <DependentUpon>CouponDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDetail.aspx.designer.cs">
+      <DependentUpon>CouponDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDetailClub.aspx.cs">
+      <DependentUpon>CouponDetailClub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDetailClub.aspx.designer.cs">
+      <DependentUpon>CouponDetailClub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDisplay.aspx.cs">
+      <DependentUpon>CouponDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDisplay.aspx.designer.cs">
+      <DependentUpon>CouponDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponDisplayDirectorio.aspx.cs">
+      <DependentUpon>CouponDisplayDirectorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponDisplayDirectorio.aspx.designer.cs">
+      <DependentUpon>CouponDisplayDirectorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouponPrint.aspx.cs">
+      <DependentUpon>CouponPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouponPrint.aspx.designer.cs">
+      <DependentUpon>CouponPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailForm.aspx.cs">
+      <DependentUpon>DetailForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailForm.aspx.designer.cs">
+      <DependentUpon>DetailForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FranchiseeForm.aspx.cs">
+      <DependentUpon>FranchiseeForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FranchiseeForm.aspx.designer.cs">
+      <DependentUpon>FranchiseeForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FranchisesForm.aspx.cs">
+      <DependentUpon>FranchisesForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FranchisesForm.aspx.designer.cs">
+      <DependentUpon>FranchisesForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeForm.aspx.cs">
+      <DependentUpon>HomeForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeForm.aspx.designer.cs">
+      <DependentUpon>HomeForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDirectorio.aspx.cs">
+      <DependentUpon>LoginDirectorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginDirectorio.aspx.designer.cs">
+      <DependentUpon>LoginDirectorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Magazine.aspx.cs">
+      <DependentUpon>Magazine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Magazine.aspx.designer.cs">
+      <DependentUpon>Magazine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageSentForm.aspx.cs">
+      <DependentUpon>MessageSentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageSentForm.aspx.designer.cs">
+      <DependentUpon>MessageSentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Politycs.aspx.cs">
+      <DependentUpon>Politycs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Politycs.aspx.designer.cs">
+      <DependentUpon>Politycs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portada.aspx.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portada.aspx.designer.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterClub.aspx.cs">
+      <DependentUpon>RegisterClub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterClub.aspx.designer.cs">
+      <DependentUpon>RegisterClub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RememberMe.aspx.cs">
+      <DependentUpon>RememberMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RememberMe.aspx.designer.cs">
+      <DependentUpon>RememberMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResultForm.aspx.cs">
+      <DependentUpon>SearchResultForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResultForm.aspx.designer.cs">
+      <DependentUpon>SearchResultForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Admin.master.cs">
+      <DependentUpon>Admin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\Admin.master.designer.cs">
+      <DependentUpon>Admin.master</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Base.Master.cs">
+      <DependentUpon>Base.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\Base.Master.designer.cs">
+      <DependentUpon>Base.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\NestedBaseMasterPage.master.cs">
+      <DependentUpon>NestedBaseMasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\NestedBaseMasterPage.master.designer.cs">
+      <DependentUpon>NestedBaseMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Special.Master.cs">
+      <DependentUpon>Special.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\Special.Master.designer.cs">
+      <DependentUpon>Special.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TermConditions.aspx.cs">
+      <DependentUpon>TermConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermConditions.aspx.designer.cs">
+      <DependentUpon>TermConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAlreadyExist.aspx.cs">
+      <DependentUpon>UserAlreadyExist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserAlreadyExist.aspx.designer.cs">
+      <DependentUpon>UserAlreadyExist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\GorilaService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\bsx.DirLaguna.CommonWeb\bsx.DirLaguna.CommonWeb.csproj">
+      <Project>{4840B853-577B-411D-B642-690771BDF43A}</Project>
+      <Name>bsx.DirLaguna.CommonWeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\bsx.DirLaguna.Dal\bsx.DirLaguna.Dal.csproj">
+      <Project>{B5AE1D11-6864-4DDA-ACED-D666030B7C54}</Project>
+      <Name>bsx.DirLaguna.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shared\Base.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shared\Special.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Shared\NestedBaseMasterPage.master" />
+    <Content Include="Shared\Admin.master" />
+    <None Include="Web References\GorilaService\ConceptCarrier.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\GorilaService\FileContainerCarrier.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\GorilaService\GorilaService.wsdl" />
+    <None Include="Web References\GorilaService\InvoiceCarrier.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\GorilaService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:5684/Service/GorilaService.asmx%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\GorilaService\</RelPath>
+      <UpdateFromURL>http://localhost:5684/Service/GorilaService.asmx%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>bsx_DirLaguna_Public_GorilaService_GorilaService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>3634</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

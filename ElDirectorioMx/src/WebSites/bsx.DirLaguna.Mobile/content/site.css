@@ -1,0 +1,91 @@
+﻿body{ background:url("img/header2.png") repeat-x; background-size: 9px 70px; }
+a, a:visited{color:#0066CC;}
+.itemRow{ border-bottom:1px solid #e0e0e0;}
+.itemRow a:link{display:block; padding:10px 0 10px 0px; background:url("img/NextBttn2.png") no-repeat right center; background-size:29px 30px;}
+.ButtonContainer{padding-top:20px; clear:both;}
+.pageContent .ButtonContainer:first-child{padding-top:0px; }
+#header{text-align:center;height:65px;padding-top:5px; margin-bottom:15px;}
+.logo img{width:150px; margin-top:5px;}
+.footer{text-align:center; padding-top:18px; clear:both;}
+.publy img{width:75px;}
+h1{text-align:center; border-bottom:2px solid #e0e0e0; font-size:38px;}
+#keyboard a{text-align:left; padding-left:40px; font-size:21px; font-weight:bold;}
+.filterFieldButton{text-align:center;}
+.browseSpace{text-align:center; border-top:2px solid #e0e0e0; padding-top:14px; margin-top:7px;}
+.filterField .whatField, #filters .formField{padding:10px; width:250px;}
+.filterContainer{text-align:center;}
+#filters{text-align:left; width:280px; margin:0 auto;}
+#filters select{width:270px;}
+
+.listItem{border-bottom:solid 1px #e0e0e0;}
+/*.listItem a{text-decoration:none;}*/
+.linkContainer{display:block;padding:5px 29px 5px 0; background: url("img/NextBttn2.png") no-repeat right center; background-size:29px 30px;}
+.linkContainer2{display:block;padding:5px 29px 5px 0; background: url("img/NextBttn2.png") no-repeat right center, url("img/featured.png") no-repeat right top; background-size:29px 30px;}
+.imageItem{float:left; width:45px; min-height:90px;margin:0 5px;}
+.imageItem img{max-width:45px; max-height:45px;}
+.divFeatured{float:right; margin-right:5px; background-position:right center; top:-10px; position:relative;}
+.itemName{font-weight:bold;}
+.pager{text-align:center;display:block; margin:10px 0;}
+.pager a{padding:10px;}
+.listContent {clear:both;}
+.listContent table{width:100%;}
+
+.itemContentLogo{text-align:center;}
+.itemLogo img{max-width:90px; max-height:90px;}
+.detailPage {clear:both;}
+.detailPage .listItem{border-bottom-width:0px;}
+
+.aDetail .header{border-bottom:2px solid #e0e0e0; text-align:left;padding:15px 0 2px 0; margin-bottom:4px;}
+.aDetail .header label{font-size:14px;}
+blockquote{margin-bottom:10px;border-left-width:0;font-size:14px;}
+.shareArea{padding:10px 0; margin-bottom:5px; text-align:right;}
+.doLike{float:right; }
+.twitContainer{float:right; margin-top:0px;}
+.itemAddress, .website, .facebookLink,.twitterLink /*.phoneNumber, .email*/, .back{padding:5px 0 5px 28px; background:url("img/Maps.png") no-repeat left center; background-size:24px 24px; min-height:24px; }
+.website, .facebookLink,.twitterLink, .back {display:block; float:left; margin:1px 0; clear:both;}
+/*
+.phoneNumber{background-image:url("img/PhoneNormal.png")}
+.email{background-image:url("img/MailNormal.png")}*/
+.facebookLink{background-image:url("img/FacebookNormal.png")}
+.twitterLink{background-image:url("img/TwitterNormal.png")}
+.website{background-image:url("img/BrowserNormal.png")}
+.back{background-image:url("img/Back.png")}
+/*.elementList a, .elementList li{padding:4px 0 4px 28px;}
+.emailList a{background-image:url("img/MailNormal.png")}
+.phoneList li{background-image:url("img/PhoneNormal.png")}
+.elementList a, .elementList li,
+*/
+.pageContent{min-height:240px;}
+.listContent .listItem{/*border-top:1px solid #FFFFFF; border-bottom:1px solid #DDDDDD; background-color:#eeeeee;*/ clear:both;}
+.itemContent{clear:both;}
+.AppStore{/*position:absolute; text-align:right; width:100%;*/ padding:0; text-align:center;}
+/*ul.tabs{margin-top:10px;}
+#headerContainer{padding:1px 0;}*/
+#headerContainer ul.tabs{margin-bottom:5px;}
+
+.checkbox label{display:inline;}
+label.requiredLabel span{float:right; margin-right:10px;font-size:small;}
+label.requiredLabel span.smallValidator{font-size:smaller;}
+.validator{color:Red; text-align:center; padding:5px; }
+.couponImage{text-align:center;}
+.couponImage img{width:300px;}
+.couponItem{float:left; margin:5px 10px 5px 0px;}
+.couponItem a img {width: 130px;}
+.couponItemSmall a img {width: 75px;}
+
+body.noHeader{background-image:none; padding-top:5px; padding-botto:3px;}
+.noHeader #header{height:0px; padding-top:0px; display:none;}
+.noHeader .footer, .noHeader h1{display:none;}
+.noHeader input[type="text"],.noHeader input[type="password"],.noHeader input[type="email"], .noHeader textarea, .noHeader select{margin-bottom:10px;}
+.noHeader #filters p{margin:0;}
+
+.fullwidth{
+    width:100% !important;
+}
+
+.siteCompleted
+{
+    font-weight:bold;
+    color:#0066CC !important;
+    text-decoration:none;
+}

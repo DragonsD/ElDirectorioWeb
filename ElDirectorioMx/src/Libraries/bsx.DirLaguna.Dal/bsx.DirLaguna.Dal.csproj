@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5AE1D11-6864-4DDA-ACED-D666030B7C54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bsx.DirLaguna.Dal</RootNamespace>
+    <AssemblyName>bsx.DirLaguna.Dal</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionControllers\AccountConceptController.cs" />
+    <Compile Include="ActionControllers\AccountDetailController.cs" />
+    <Compile Include="ActionControllers\AdvertiserController.cs" />
+    <Compile Include="ActionControllers\AnnounceController.cs" />
+    <Compile Include="ActionControllers\BannerController.cs" />
+    <Compile Include="ActionControllers\CategoryController.cs" />
+    <Compile Include="ActionControllers\CatPublicityController.cs" />
+    <Compile Include="ActionControllers\CityController.cs" />
+    <Compile Include="ActionControllers\ContractController.cs" />
+    <Compile Include="ActionControllers\CouponController.cs" />
+    <Compile Include="ActionControllers\CouponSetController.cs" />
+    <Compile Include="ActionControllers\FiscalDetailController.cs" />
+    <Compile Include="ActionControllers\FranchiseeController.cs" />
+    <Compile Include="ActionControllers\GalleryController.cs" />
+    <Compile Include="ActionControllers\GenPublicityController.cs" />
+    <Compile Include="ActionControllers\OfficeController.cs" />
+    <Compile Include="ActionControllers\PageController.cs" />
+    <Compile Include="ActionControllers\PictureController.cs" />
+    <Compile Include="ActionControllers\PublicityController.cs" />
+    <Compile Include="ActionControllers\SqliteUpdateController.cs" />
+    <Compile Include="ActionControllers\UserController.cs" />
+    <Compile Include="Arguments\IntEventArgs.cs" />
+    <Compile Include="Carrier\PublicAdvertiserCarrier.cs" />
+    <Compile Include="Carrier\PublicCategoryCarrier.cs" />
+    <Compile Include="Carrier\PublicPublicityCarrier.cs" />
+    <Compile Include="Carrier\SimpleAccountDetailCarrier.cs" />
+    <Compile Include="Carrier\SimpleAdvertiserCarrier.cs" />
+    <Compile Include="Carrier\SimpleCardClubCarrier.cs" />
+    <Compile Include="Carrier\SimpleContractTransactionCarrier.cs" />
+    <Compile Include="Carrier\SimpleCouponCarrier.cs" />
+    <Compile Include="Carrier\SimpleCouponCategoryCarrier.cs" />
+    <Compile Include="Carrier\SimpleFiscalDetailCarrier.cs" />
+    <Compile Include="Carrier\SimpleFranchiseeCarrier.cs" />
+    <Compile Include="Carrier\SimplePublicityCarrier.cs" />
+    <Compile Include="Carrier\SimpleTableCarrier.cs" />
+    <Compile Include="Crypto.cs" />
+    <Compile Include="Custom\AccountDetail.cs" />
+    <Compile Include="Custom\Advertiser.cs" />
+    <Compile Include="Custom\Category.cs" />
+    <Compile Include="Custom\CatPublicity.cs" />
+    <Compile Include="Custom\City.cs" />
+    <Compile Include="Custom\Contract.cs" />
+    <Compile Include="Custom\Coupon.cs" />
+    <Compile Include="Custom\CouponSet.cs" />
+    <Compile Include="Custom\Franchisee.cs" />
+    <Compile Include="Custom\Gallery.cs" />
+    <Compile Include="Custom\GeneralSetUp.cs" />
+    <Compile Include="Custom\GenPublicity.cs" />
+    <Compile Include="Custom\Office.cs" />
+    <Compile Include="Custom\Page.cs" />
+    <Compile Include="Custom\Picture.cs" />
+    <Compile Include="Custom\Publicity.cs" />
+    <Compile Include="Custom\ShareLevel.cs" />
+    <Compile Include="Custom\SqliteUpdate.cs" />
+    <Compile Include="Enum\AccountConceptKeyEnum.cs" />
+    <Compile Include="Enum\CouponStatusEnum.cs" />
+    <Compile Include="Enum\PublishedStatusEnum.cs" />
+    <Compile Include="Enum\StatusEnum.cs" />
+    <Compile Include="Enum\PersonalTypeEnum.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="PublicContent\ActionControllers\UserController.cs" />
+    <Compile Include="PublicContent\DirLagunaPublicModel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DirLagunaPublicModel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="PublicContent\SelectControllers\BaseController.cs" />
+    <Compile Include="PublicContent\SelectControllers\UserPublicController.cs" />
+    <Compile Include="PublicContent\TableSpec.cs" />
+    <Compile Include="SelectControllers\AccountConceptController.cs" />
+    <Compile Include="SelectControllers\AccountDetailController.cs" />
+    <Compile Include="SelectControllers\AdvertiserCategoryController.cs" />
+    <Compile Include="SelectControllers\AdvertiserController.cs" />
+    <Compile Include="SelectControllers\AnnounceController.cs" />
+    <Compile Include="SelectControllers\BannerController.cs" />
+    <Compile Include="SelectControllers\BaseController.cs" />
+    <Compile Include="DirLagunaModel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DirLagunaModel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SelectControllers\CategoryController.cs" />
+    <Compile Include="SelectControllers\CatPublicityController.cs" />
+    <Compile Include="SelectControllers\CityController.cs" />
+    <Compile Include="SelectControllers\ClubCardController.cs" />
+    <Compile Include="SelectControllers\ContractController.cs" />
+    <Compile Include="SelectControllers\CouponCategoryController.cs" />
+    <Compile Include="SelectControllers\CouponSetController.cs" />
+    <Compile Include="SelectControllers\CouponController.cs" />
+    <Compile Include="SelectControllers\CouponStatusController.cs" />
+    <Compile Include="SelectControllers\EmailController.cs" />
+    <Compile Include="SelectControllers\EstadoController.cs" />
+    <Compile Include="SelectControllers\FiscalDetailController.cs" />
+    <Compile Include="SelectControllers\FranchiseeBaseController.cs" />
+    <Compile Include="SelectControllers\FranchiseeController.cs" />
+    <Compile Include="SelectControllers\GalleryController.cs" />
+    <Compile Include="SelectControllers\GeneralSetUpController.cs" />
+    <Compile Include="SelectControllers\GenPublicityController.cs" />
+    <Compile Include="SelectControllers\MunicipioController.cs" />
+    <Compile Include="SelectControllers\OfficeController.cs" />
+    <Compile Include="SelectControllers\PageController.cs" />
+    <Compile Include="SelectControllers\PersonalController.cs" />
+    <Compile Include="SelectControllers\PhoneController.cs" />
+    <Compile Include="SelectControllers\PhoneTypeController.cs" />
+    <Compile Include="SelectControllers\PictureController.cs" />
+    <Compile Include="SelectControllers\PublicityController.cs" />
+    <Compile Include="SelectControllers\ShareLevelController.cs" />
+    <Compile Include="SelectControllers\SqliteUpdateController.cs" />
+    <Compile Include="SelectControllers\StatusController.cs" />
+    <Compile Include="SelectControllers\TagController.cs" />
+    <Compile Include="SelectControllers\UserController.cs" />
+    <Compile Include="SelectControllers\VwAdvertiserController.cs" />
+    <Compile Include="TableSpec.cs" />
+    <Compile Include="TextHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DirLagunaModel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DirLagunaModel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PublicContent\DirLagunaPublicModel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DirLagunaPublicModel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirLagunaModel.dbml.layout">
+      <DependentUpon>DirLagunaModel.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PublicContent\DirLagunaPublicModel.dbml.layout">
+      <DependentUpon>DirLagunaPublicModel.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

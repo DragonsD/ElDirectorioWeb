@@ -1,0 +1,3 @@
+2012-11-28 16:32:40.6530|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-28 16:32:40.6610|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-28 16:32:43.4164|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto

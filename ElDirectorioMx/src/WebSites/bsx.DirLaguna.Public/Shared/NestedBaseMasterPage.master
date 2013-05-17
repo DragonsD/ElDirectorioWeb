@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Shared/Base.Master" AutoEventWireup="true"
+    CodeBehind="NestedBaseMasterPage.master.cs" Inherits="bsx.DirLaguna.Public.Shared.NestedBaseMasterPage" %>
+
+<%--<asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="PrePageContentPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="PreContainerPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="PageContentPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="AdsPageContentPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="PostPageContentPlaceHolder" runat="server">
+</asp:Content>
+<asp:Content ID="Content7" ContentPlaceHolderID="CustomJavascriptContentPlaceHolder" runat="server">
+</asp:Content>
+--%>
+<asp:Content ID="Content3" ContentPlaceHolderID="PreContainerPlaceHolder" runat="server">
+    <div class="detailHeader">
+        <h1>
+            <asp:ContentPlaceHolder ID="HeaderTitlePlaceHolder" runat="server">
+                <asp:Label ID="TitleLabel" runat="server"></asp:Label>
+            </asp:ContentPlaceHolder>
+        </h1>
+    </div>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="PageContentPlaceHolder" runat="server">
+    <div class="listContainer">
+        <div class="listContentWrapper">
+            <div class="listContent">
+                <asp:ContentPlaceHolder ID="PageContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div class="listContainerFooter">
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContentPlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,290 @@
+2013-04-18 14:43:57.6017|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 14:44:01.4544|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 14:44:06.5624|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 14:44:09.7352|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 14:44:10.7522|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 14:44:14.9860|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 14:44:17.5426|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 14:44:18.1147|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 14:44:18.5667|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 14:44:19.1030|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 14:44:19.5529|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 14:44:19.7553|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 14:44:19.8976|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 14:44:20.9458|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 14:44:21.5288|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 14:44:21.7862|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 14:44:23.5569|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 14:44:25.1367|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 14:44:25.5047|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 14:44:25.8178|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 14:44:26.1348|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 14:44:26.4499|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 14:44:26.5349|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 14:58:14.0527|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-18 14:58:14.2238|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=130&ft_id=1&ve_desc=Destacado (1)
+Numero de Cupones
+Sitio Web
+Aplicacion iOs 
+Aplicacion Android
+&ve_fecha=18/04/2013 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=0&PromiseDate=17/04/2013 0:00:00
+2013-04-18 14:58:15.8054|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2013-04-18 14:58:15.8054|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>47</b><br />
+2013-04-18 14:58:15.8054|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2013-04-18 14:58:15.8194|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2013-04-18 14:58:51.8590|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 14:58:52.3271|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 14:58:53.7984|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 14:58:54.1105|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 14:58:54.3056|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 14:58:55.6826|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 14:58:57.7604|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 14:58:58.2516|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 14:58:58.6295|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 14:58:58.9039|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 14:58:59.2059|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 14:58:59.6444|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 14:58:59.7974|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 14:58:59.9235|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 14:59:01.1666|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 14:59:01.6183|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 14:59:01.8913|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 14:59:03.6820|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 14:59:04.9714|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 14:59:05.4206|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 14:59:05.8834|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 14:59:06.3656|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 14:59:06.8311|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 14:59:07.2091|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 14:59:07.2961|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:04:05.5634|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-18 15:04:05.6213|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-18 15:04:05.8963|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-18 15:04:15.0193|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:04:15.1161|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:04:16.2072|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:04:16.8093|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:04:17.0494|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:04:20.9319|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:04:22.3009|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:04:22.8354|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:04:23.1575|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:04:23.5503|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:04:23.9135|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:04:25.1102|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:04:25.2289|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:04:25.2519|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:04:26.4100|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:04:26.7920|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:04:26.9320|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:04:28.3631|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:04:30.5150|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:04:31.1038|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:04:31.5377|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:04:32.0083|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:04:32.3504|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:04:33.1611|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:04:33.2954|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:15:02.3650|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:15:02.9725|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:15:04.2897|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:15:04.8388|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:15:05.1393|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:15:06.6024|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:15:07.7645|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:15:09.3507|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:15:09.8192|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:15:10.3382|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:15:10.6714|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:15:11.1625|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:15:11.7584|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:18:17.3895|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:18:17.7976|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:18:19.2022|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:18:19.9136|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:18:20.0996|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:18:20.9244|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:18:21.9168|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:18:23.3226|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:18:23.8028|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:18:24.2626|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:18:24.7638|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:18:25.1579|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:18:25.6669|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:31:46.5041|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:31:46.6541|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:31:47.8563|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:31:48.2239|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:31:48.3766|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:35:20.2005|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:35:48.6576|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:35:50.4379|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:35:51.1639|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:35:51.7010|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:35:52.1791|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:35:52.7361|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:35:59.9121|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:38:08.6099|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:38:08.7689|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:38:11.0963|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:38:11.4710|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:38:11.7307|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:38:13.7395|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:38:15.1828|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:38:15.7774|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:38:16.5726|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:38:16.9126|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:38:17.2899|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:38:18.2143|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:38:18.4051|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:38:18.6147|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:38:20.5970|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:38:20.8880|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:38:21.0400|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:38:23.0240|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:38:24.1701|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:38:24.7982|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:38:25.2962|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:38:25.8392|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:38:26.1967|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:38:26.8057|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:38:26.8897|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:44:40.3593|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:44:40.5279|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|No se han encontrado modificaciones a la base de datos. Se suspende
+2013-04-18 15:44:40.5279|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== FIN DE LA GENERACION ==
+
+2013-04-18 15:45:23.6749|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:45:24.1321|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:45:25.2817|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:45:25.8789|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:45:26.4011|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:45:27.4238|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:45:28.0162|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:45:30.8676|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:45:31.3474|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:45:31.6803|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:45:32.3478|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:45:32.8138|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:45:33.2968|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named isClub
+2013-04-18 15:47:14.8635|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 15:47:15.0425|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:47:19.9081|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:47:20.7892|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:47:21.3863|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:47:26.9450|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:47:31.2635|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:47:32.2137|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:47:33.1558|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:47:34.5310|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:47:35.5471|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:47:37.4753|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:47:37.7902|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 15:47:37.9126|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 15:47:41.9321|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 15:47:42.7292|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 15:47:43.1363|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 15:47:45.7496|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 15:47:49.1141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 15:47:50.7303|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 15:47:51.9664|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 15:47:55.1458|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 15:47:56.9200|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 15:47:59.1353|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 15:47:59.3764|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 16:15:27.0553|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 16:15:27.2446|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|No se han encontrado modificaciones a la base de datos. Se suspende
+2013-04-18 16:15:27.2446|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== FIN DE LA GENERACION ==
+
+2013-04-18 16:15:55.2040|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 16:15:55.9643|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 16:15:57.2199|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 16:15:58.0891|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 16:15:58.3623|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 16:15:59.7050|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:16:01.4097|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 16:16:03.5184|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 16:16:04.4000|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 16:16:05.0181|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 16:16:05.9088|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 16:16:06.6855|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 16:16:07.7671|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:19:23.0553|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 16:19:23.2133|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 16:19:25.4416|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 16:19:26.0237|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 16:19:26.3069|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 16:19:27.2955|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:19:28.2382|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 16:19:29.7311|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 16:19:30.1992|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 16:19:30.6634|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 16:19:31.0395|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 16:19:31.3486|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 16:19:31.6996|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:23:16.4375|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 16:23:16.5925|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 16:23:17.8526|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 16:23:18.1987|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 16:23:18.4496|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 16:23:19.3202|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:23:20.5191|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 16:23:21.8346|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 16:23:22.4127|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 16:23:22.7708|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 16:23:23.0808|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 16:23:23.4839|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 16:23:23.8380|ERROR|bsx.DirLaguna.iOsDataStorage.SqLiteCommander|Error al guardar información en SqLite. SQLite error
+table Coupon has no column named IsClub
+2013-04-18 16:36:56.9819|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-18 16:36:57.1279|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 16:36:58.5010|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 16:36:59.0211|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 16:36:59.2873|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 16:37:01.1377|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 16:37:02.2371|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 16:37:02.8545|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 16:37:03.2404|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 16:37:03.7376|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 16:37:04.2518|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 16:37:05.1784|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 16:37:05.3515|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-18 16:37:05.4613|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-18 16:37:06.4685|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-18 16:37:06.9029|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-18 16:37:07.1331|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-18 16:37:08.7234|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-18 16:37:10.3934|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-18 16:37:10.8412|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-18 16:37:11.5603|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-18 16:37:12.1951|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-18 16:37:12.6782|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-18 16:37:13.3744|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-18 16:37:13.4604|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos

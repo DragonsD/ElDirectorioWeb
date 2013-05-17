@@ -1,0 +1,313 @@
+2013-04-19 15:39:10.0914|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 15:39:10.3374|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|No se han encontrado modificaciones a la base de datos. Se suspende
+2013-04-19 15:39:10.3404|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== FIN DE LA GENERACION ==
+
+2013-04-19 15:40:02.9337|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 15:40:10.2509|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:40:15.0644|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:40:17.7471|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:40:18.2141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:40:23.1691|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:40:25.1332|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:40:25.8749|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:40:28.1348|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:40:28.7427|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:40:30.4346|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:40:31.8103|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:40:35.2081|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 15:40:36.5315|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:40:37.5276|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:42:56.6069|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 15:42:56.6409|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:42:57.6000|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:42:59.8147|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:43:00.1904|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:43:04.0105|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:43:07.1315|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:43:07.8089|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:43:08.2605|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:43:08.7878|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:43:09.3577|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:43:10.9683|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:43:11.1222|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 15:43:11.2401|ERROR|bsx.DirLaguna.iOsDataStorage.DataBuilder|Error al copiar la bd. El proceso no puede obtener acceso al archivo 'C:\Users\Reiter\Dropbox\ProyectoElDirectorio\ElDirectorioMx\src\WebSites\bsx.DirLaguna.Admin\Temp\DirLagunaV2.db' porque está siendo utilizado en otro proceso.
+2013-04-19 15:43:11.2531|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:43:12.2662|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:43:12.8352|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:43:12.9838|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:43:15.5428|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:43:23.4554|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:43:24.2820|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:43:24.8940|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:43:25.4074|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:43:26.8480|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:43:32.2611|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:43:34.4476|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 15:50:35.0177|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 15:50:35.2493|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:50:41.0995|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:52:07.5586|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:53:17.3574|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:54:05.5883|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:54:15.4464|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:54:17.3527|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:54:19.4446|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:54:27.2432|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:54:28.1757|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:54:30.2733|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:54:47.1012|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 15:54:47.5367|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:54:48.5318|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:59:20.6865|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 15:59:20.8325|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:59:21.9637|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:59:22.5537|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:59:22.9714|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:59:25.6615|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:59:27.4133|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:59:27.9405|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:59:28.7167|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:59:29.2270|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:59:29.9520|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:59:30.4085|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:59:30.5940|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 15:59:30.7093|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 15:59:31.7875|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 15:59:32.5026|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 15:59:32.7497|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 15:59:34.2955|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 15:59:36.8998|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 15:59:37.4271|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 15:59:38.0054|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 15:59:38.6646|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 15:59:39.3648|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 15:59:40.0606|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 15:59:40.2376|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:05:18.5579|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-19 16:05:18.7149|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=7&cl_id=1&ft_id=1&ve_desc=Numero de Sucursales (9)
+Destacado (1)
+Sitio Web
+Aplicacion iOs 
+Contenido enriquecido (1)
+Aplicacion Android
+&ve_fecha=01/06/2012 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=erte&ds_extnum=35&ds_intnum=&ds_colonia=4erty&ds_ciudad=La Paz&ds_estado=Baja California Sur&ds_cp=34634&ds_rfc=ADC451010D34&ds_razonsocial=gdfgs
+2013-04-19 16:05:19.0032|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR1</p>
+2013-04-19 16:05:19.0083|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2013-04-19 16:05:28.7790|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:05:28.9200|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:05:30.1012|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:05:30.7364|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:05:31.5115|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:05:33.5383|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:05:35.8641|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:05:36.4395|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:05:37.5155|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:05:38.0741|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:05:38.7022|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:05:39.4105|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:05:39.5386|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:05:39.6006|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:05:40.9337|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:05:41.5943|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:05:41.8753|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:05:43.9634|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:05:46.1334|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:05:46.7749|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:05:47.5730|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:05:48.4343|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:05:48.9477|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:05:49.5497|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:05:49.7057|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:16:46.0233|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:16:46.0873|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|No se han encontrado modificaciones a la base de datos. Se suspende
+2013-04-19 16:16:46.0873|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== FIN DE LA GENERACION ==
+
+2013-04-19 16:17:13.9564|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:17:14.0794|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:17:15.4596|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:17:16.1590|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:17:16.5822|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:17:18.5048|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:17:20.6883|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:17:21.1829|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:17:21.7683|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:17:22.2277|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:17:22.8399|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:17:24.1119|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:17:24.2889|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:17:24.3519|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:17:25.8581|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:17:26.7468|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:17:27.0201|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:17:28.3813|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:17:30.6098|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:17:31.2695|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:17:31.9386|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:17:32.3296|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:17:32.8900|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:17:34.1731|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:17:34.3695|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:23:04.3894|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:23:04.4295|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:23:05.4446|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:23:05.8808|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:23:06.0891|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:23:07.8796|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:23:09.9340|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:23:10.4401|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:23:10.8605|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:23:11.4899|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:23:11.8490|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:23:12.6548|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:23:12.8141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:23:12.8401|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:23:13.8243|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:23:14.3174|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:23:14.5524|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:23:16.1732|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:23:18.6216|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:23:19.2893|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:23:19.9711|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:23:20.4582|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:23:20.9022|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:23:21.9930|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:23:22.1821|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:27:17.4373|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:27:17.4783|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:27:19.4332|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:27:20.0613|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:27:20.3581|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:27:22.3963|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:27:23.7354|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:27:24.1220|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:27:24.4834|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:27:25.4009|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:27:25.8281|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:27:27.0294|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:27:27.1301|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:27:27.1651|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:27:28.9664|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:27:29.2868|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:27:29.4027|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:27:31.5076|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:27:34.3667|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:27:34.8597|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:27:35.5976|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:27:37.5011|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:27:38.2433|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:27:39.5957|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:27:39.7190|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:32:04.5980|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 16:32:04.6400|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:32:05.6461|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:32:06.0637|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:32:06.1919|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:32:07.9238|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:32:10.6686|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:32:11.5723|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:32:13.2115|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:32:14.9570|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:32:15.6819|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:32:17.2706|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:32:17.3878|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 16:32:17.4308|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 16:32:18.5909|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 16:32:19.4380|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 16:32:19.7521|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 16:32:21.7862|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 16:32:23.6700|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 16:32:24.1441|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 16:32:24.7510|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 16:32:25.8620|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 16:32:26.4356|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 16:32:27.8575|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 16:32:28.0327|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 17:53:35.6592|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 17:53:36.3658|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 17:53:37.4756|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 17:53:38.3744|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 17:53:38.9322|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 17:53:41.3798|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 17:53:42.9787|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 17:53:43.4768|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 17:53:44.2169|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 17:53:45.9400|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 17:53:46.3513|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 17:53:47.8557|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 17:53:47.9537|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 17:53:48.0487|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 17:53:49.5909|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 17:53:50.0345|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 17:53:50.2475|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 17:53:52.7512|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 17:53:54.8169|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 17:53:55.4426|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 17:53:55.9547|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 17:53:57.5218|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 17:53:58.0869|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 17:53:59.6281|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 17:53:59.8112|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 17:58:50.6340|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 17:58:50.8091|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 17:58:51.9292|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 17:58:52.4590|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 17:58:52.6869|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 17:58:55.7267|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 17:58:57.6568|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 17:58:58.0141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 17:58:58.3397|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 17:59:00.0725|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 17:59:00.5200|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 17:59:01.8873|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 17:59:02.1360|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 17:59:02.1750|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 17:59:03.2141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 17:59:03.7146|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 17:59:03.8669|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 17:59:06.1192|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 17:59:08.6536|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 17:59:09.0076|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 17:59:09.4725|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 17:59:11.7775|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 17:59:12.2666|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 17:59:13.9766|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 17:59:14.1112|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 18:04:09.3663|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-19 18:04:09.5163|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 18:04:11.6486|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 18:04:12.7429|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 18:04:12.9875|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 18:04:15.5618|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 18:04:17.6637|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 18:04:18.0567|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 18:04:18.5302|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 18:04:20.6688|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 18:04:21.1557|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 18:04:23.7249|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 18:04:23.8838|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-19 18:04:23.9108|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-19 18:04:25.8791|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-19 18:04:26.3627|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-19 18:04:26.5318|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11687; Name: Acuatica Rosas.
+2013-04-19 18:04:28.6799|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-19 18:04:30.1743|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-19 18:04:30.7543|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-19 18:04:31.3134|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-19 18:04:32.9510|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-19 18:04:33.3917|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:12003; Name: Abel
+2013-04-19 18:04:35.2072|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-19 18:04:35.3790|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos

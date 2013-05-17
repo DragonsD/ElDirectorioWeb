@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 22.75, 68" name="DirLagunaModel">
+  <DataContextMoniker Name="/DirLagunaModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6bac880f-ef62-4cd9-bc16-1003fc1523a0" absoluteBounds="12, 48.5, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/AccountConcept" />
+      <nestedChildShapes>
+        <elementListCompartment Id="436ad312-5807-4576-9c27-51a7d1352be9" absoluteBounds="12.015, 48.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ddb61e2c-3015-4e8b-bb3e-fd5d2fbbedfd" absoluteBounds="12, 34, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Tag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fdacf735-e480-4689-abb9-bb9360140c86" absoluteBounds="12.015, 34.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f8a6527-6ada-43e9-bb02-ff6ec0f166e1" absoluteBounds="14.75, 48.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/AccountDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b97ac0f1-3127-434b-9ba7-4a5fa09ff161" absoluteBounds="14.765, 49.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e88e8a96-d7ba-463d-8770-493012c65f95" absoluteBounds="15, 33.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/AdvertiserCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da49b20b-e449-440c-9b93-894fe3089e92" absoluteBounds="15.015, 34.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e093837-d7f5-4bac-97a4-824e2099fb7f" absoluteBounds="15, 36.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Announce" />
+      <nestedChildShapes>
+        <elementListCompartment Id="114a7e4f-9c52-4b7d-a62f-c2df5dc9032f" absoluteBounds="15.015, 37.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90e4d4cb-e6f6-435f-85b0-244180321701" absoluteBounds="0.75, 28.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_Application" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1524b06-a4ad-4270-b198-74dfaee0ba5e" absoluteBounds="0.765, 29.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="da423a87-2252-45f0-ac8e-204a6918ce1b" absoluteBounds="6.25, 34.375, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_Membership" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1029ac86-ecc7-4c6f-b6da-5a8da9d9cf53" absoluteBounds="6.265, 34.835, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26e418c8-08f2-4788-92b5-c5c2cd915f77" absoluteBounds="3.5, 26, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_Path" />
+      <nestedChildShapes>
+        <elementListCompartment Id="286cc336-728f-4976-96b7-e7d095eb558b" absoluteBounds="3.515, 26.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="472fa322-0e38-4bdf-bc88-93cf8cad99d5" absoluteBounds="6.25, 26.125, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_PersonalizationAllUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5caa966-7631-4221-92b3-7af5323024f2" absoluteBounds="6.265, 26.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="485d112a-269b-4772-a256-2a6ba1588e63" absoluteBounds="9.25, 28.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_PersonalizationPerUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="727d328a-b981-42b9-8275-c76f7b1fe9be" absoluteBounds="9.265, 29.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a900728f-19c0-4e12-b82f-338a292910e9" absoluteBounds="6.25, 31, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_Profile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1115a181-cf27-45a4-842d-a903c822bec9" absoluteBounds="6.265, 31.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26b50a58-7b95-4760-aef9-0d996dc3b857" absoluteBounds="3.5, 28.25, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c63a238-7ef8-4168-99fb-fa6a821b67ff" absoluteBounds="3.515, 28.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f1d21a19-fa31-4f74-8f08-a59313f8eee1" absoluteBounds="0.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_SchemaVersion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24883f8d-58bf-4b98-8535-609e1e1a35fd" absoluteBounds="0.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" absoluteBounds="3.5, 30.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30923183-fc41-48e7-845d-6528f50bcabf" absoluteBounds="3.515, 31.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c2b11a2-297a-4d58-8996-fbaaaf4f31f7" absoluteBounds="6.25, 29, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_UsersInRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8acd73b5-6f54-4c23-8ab0-b2ca688b5ec6" absoluteBounds="6.265, 29.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ee333ae-9cc8-4ef5-8062-44e7798754b3" absoluteBounds="3.75, 4.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/aspnet_WebEvent_Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="acff1ddf-95a8-48fb-94e1-babcef7c5792" absoluteBounds="3.765, 5.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4999f09b-c286-4cab-b9fb-21d98744fc44" absoluteBounds="6.75, 0.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Banner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6c89c474-5bce-4e34-95e8-ab5de94f522d" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6669f5ee-de26-4780-ba19-1b11af6e4c19" absoluteBounds="17.75, 25, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d34fad7-df40-4959-8597-2c93735e4273" absoluteBounds="17.765, 25.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0621283c-7d89-4710-81eb-11978b285140" absoluteBounds="20.5, 24.625, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/CatPublicity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9185f9b-149a-4c8c-b082-8bf34df435ea" absoluteBounds="20.515, 25.085, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a1f693b-04a4-441f-926b-a4af8d217b27" absoluteBounds="12, 62.375, 2, 5.4246240234375023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Contract" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83ef3f3a-7c20-4fa9-a600-66ef422b238e" absoluteBounds="12.015, 62.835, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53615383-02e8-41d6-8909-e394eda560d5" absoluteBounds="20.5, 28.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/CouponCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc232841-dde9-480b-85ba-04c426b0da8c" absoluteBounds="20.515, 29.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="609f7cfa-b399-4123-b080-edb4236df95a" absoluteBounds="12, 27.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/CouponSet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a67d212-c8ed-4fcc-b577-7a5419c45a62" absoluteBounds="12.015, 27.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="816e7dc9-eccc-43a4-a70c-72baba32f8e7" absoluteBounds="15, 28.25, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/CouponStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54a76c3c-402d-458e-a00c-363ad6aaa1c8" absoluteBounds="15.015, 28.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="228315e1-3402-4a38-ba1d-94ee5b878dab" absoluteBounds="12, 31, 2, 1.578595377604163">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Email" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe7b3dca-ad12-457d-afbd-7171374c914d" absoluteBounds="12.015, 31.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" absoluteBounds="6.5, 20.125, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Estado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6796ea0e-9282-4102-8d7a-36ffc9d1faf6" absoluteBounds="6.515, 20.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff0717a9-027c-4e1c-b72e-55e71ca8176f" absoluteBounds="6.5, 43, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/FiscalDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4563b8a2-8eba-4fb4-aa7e-7978ab40eb97" absoluteBounds="6.515, 43.46, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" absoluteBounds="6.5, 47.5, 2, 4.2708154296875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Franchisee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="620e697c-6c1e-413b-b1eb-bb3dd288d901" absoluteBounds="6.515, 47.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="581d4892-0eba-4131-9cf7-253fbc238c62" absoluteBounds="12, 37, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Gallery" />
+      <nestedChildShapes>
+        <elementListCompartment Id="217d3c0b-1741-42d6-b135-d9bfb5dc801c" absoluteBounds="12.015, 37.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bd66b178-6a02-4fa8-9bb6-3aac840c73f4" absoluteBounds="0.75, 1.25, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/GeneralSetUp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ca930fb-ea5c-4267-8d71-a85a810c1c44" absoluteBounds="0.765, 1.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c658f80-7ec4-4d95-9a04-3cbba18ef87c" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/GenPublicity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25dd7caa-e2d2-401e-be2c-6ac725070f80" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" absoluteBounds="3.75, 44.125, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Municipio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="864925fb-e471-49ec-8791-745b3b578ead" absoluteBounds="3.765, 44.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a79066b4-dc71-41b5-9cda-c4292c5b1413" absoluteBounds="18, 33.125, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Office" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77f6bf08-237a-4b3b-88ca-2fa4b5f844a4" absoluteBounds="18.015, 33.585, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b4ca82dc-455d-4ec7-bd24-51a3cb56d055" absoluteBounds="12.25, 42.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Page" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b8482e7-d59d-414f-87c7-10e863e76eae" absoluteBounds="12.265, 43.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" absoluteBounds="6.5, 40.375, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Personal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e7dd77b-c384-4cdd-b5d5-fca3a1801382" absoluteBounds="6.515, 40.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eea3da16-2e38-4633-b4d9-6124b07f71ea" absoluteBounds="3.75, 40.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/PersonalType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b42cba3-27e0-4c0e-986c-4ee55e2b5d97" absoluteBounds="3.765, 41.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08fe8444-74d3-434e-92d5-5e5a0f1c9482" absoluteBounds="15, 30.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Phone" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71f8f444-8681-4050-a921-94a493eb5a06" absoluteBounds="15.015, 31.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6b13f0b-40d7-4035-be3e-8b7c3c4f5595" absoluteBounds="12.25, 25.25, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/PhoneType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95a5310b-0041-4249-8b74-d1c5bd12691d" absoluteBounds="12.265, 25.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e0ae017-0ba9-4f15-a64e-08aa07257912" absoluteBounds="14.75, 40, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Picture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f33ec802-5aa5-48c4-aafe-ee17bdab4ca7" absoluteBounds="14.765, 40.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7d6d1319-1b1f-49ec-9506-d916ea1f0c07" absoluteBounds="3.75, 48.875, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/ShareLevel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b443d05e-ebc5-4975-b582-5bdc112a4b9d" absoluteBounds="3.765, 49.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="825605ce-4b5c-463f-8820-0bf26f607f05" absoluteBounds="6.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/SqliteUpdate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1e1e68f-1907-4438-a7ba-7f968ec422f1" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="277581e5-9f2a-40e8-863d-8c4cc49457c5" absoluteBounds="6.75, 6.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Status" />
+      <nestedChildShapes>
+        <elementListCompartment Id="639066b5-bc1c-4127-aef6-8cd7cec4d502" absoluteBounds="6.765, 7.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14 : 49.6065991210938); (14.75 : 49.6065991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/AccountConcept/AccountConcept_AccountDetail" />
+      <nodes>
+        <classShapeMoniker Id="6bac880f-ef62-4cd9-bc16-1003fc1523a0" />
+        <classShapeMoniker Id="9f8a6527-6ada-43e9-bb02-ff6ec0f166e1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 30.2035953776042); (1.75 : 36.7988598632813); (6.25 : 36.7988598632813)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Application/aspnet_Application_aspnet_Membership" />
+      <nodes>
+        <classShapeMoniker Id="90e4d4cb-e6f6-435f-85b0-244180321701" />
+        <classShapeMoniker Id="da423a87-2252-45f0-ac8e-204a6918ce1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 28.625); (1.75 : 26.7892976888021); (3.5 : 26.7892976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Application/aspnet_Application_aspnet_Path" />
+      <nodes>
+        <classShapeMoniker Id="90e4d4cb-e6f6-435f-85b0-244180321701" />
+        <classShapeMoniker Id="26e418c8-08f2-4788-92b5-c5c2cd915f77" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 26.8181469726563); (6.04166666666667 : 26.8181469726563 : JumpStart); (6.20833333333333 : 26.8181469726563 : JumpEnd); (6.25 : 26.8181469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Path/aspnet_Path_aspnet_PersonalizationAllUser" />
+      <nodes>
+        <classShapeMoniker Id="26e418c8-08f2-4788-92b5-c5c2cd915f77" />
+        <classShapeMoniker Id="472fa322-0e38-4bdf-bc88-93cf8cad99d5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 26.03125); (10.25 : 26.03125); (10.25 : 28.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Path/aspnet_Path_aspnet_PersonalizationPerUser" />
+      <nodes>
+        <classShapeMoniker Id="26e418c8-08f2-4788-92b5-c5c2cd915f77" />
+        <classShapeMoniker Id="485d112a-269b-4772-a256-2a6ba1588e63" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 29.3229484049479); (3.5 : 29.3229484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Application/aspnet_Application_aspnet_Role" />
+      <nodes>
+        <classShapeMoniker Id="90e4d4cb-e6f6-435f-85b0-244180321701" />
+        <classShapeMoniker Id="26b50a58-7b95-4760-aef9-0d996dc3b857" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 33.0304996744792); (4.5 : 35.5556774316406); (6.04166666666667 : 35.5556774316406 : JumpStart); (6.20833333333333 : 35.5556774316406 : JumpEnd); (6.25 : 35.5556774316406)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_User/aspnet_User_aspnet_Membership" />
+      <nodes>
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+        <classShapeMoniker Id="da423a87-2252-45f0-ac8e-204a6918ce1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 30.90625); (5.91666666666667 : 30.90625 : JumpStart); (6.20833333333333 : 30.90625 : JumpEnd); (8.26822641666667 : 30.90625 : JumpStart); (8.53645783333334 : 30.90625 : JumpEnd); (8.79166666666667 : 30.90625 : JumpStart); (9.11458333333333 : 30.90625 : JumpEnd); (9.34375 : 30.90625); (9.34375 : 30.3958968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_User/aspnet_User_aspnet_PersonalizationPerUser" />
+      <nodes>
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+        <classShapeMoniker Id="485d112a-269b-4772-a256-2a6ba1588e63" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 32.3840594654948); (6.04166666666667 : 32.3840594654948 : JumpStart); (6.20833333333333 : 32.3840594654948 : JumpEnd); (6.25 : 32.3840594654948)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_User/aspnet_User_aspnet_Profile" />
+      <nodes>
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+        <classShapeMoniker Id="a900728f-19c0-4e12-b82f-338a292910e9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 30.2035953776042); (2.2812525 : 31.9527498372396); (3.5 : 31.9527498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Application/aspnet_Application_aspnet_User" />
+      <nodes>
+        <classShapeMoniker Id="90e4d4cb-e6f6-435f-85b0-244180321701" />
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 29.5104484049479); (6.04166666666667 : 29.5104484049479 : JumpStart); (6.20833333333333 : 29.5104484049479 : JumpEnd); (6.25 : 29.5104484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_Role/aspnet_Role_aspnet_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="26b50a58-7b95-4760-aef9-0d996dc3b857" />
+        <classShapeMoniker Id="1c2b11a2-297a-4d58-8996-fbaaaf4f31f7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 30.875); (5.875 : 30.5); (5.875 : 29.8834724589844); (6.04166666666667 : 29.8834724589844 : JumpStart); (6.20833333333333 : 29.8834724589844 : JumpEnd); (6.25 : 29.8834724589844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_User/aspnet_User_aspnet_UsersInRole" />
+      <nodes>
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+        <classShapeMoniker Id="1c2b11a2-297a-4d58-8996-fbaaaf4f31f7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.75 : 25.5312505); (14.9375 : 25.5312505); (14.9375 : 33.78125); (16 : 33.78125); (16 : 33.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Category/Category_AdvertiserCategory" />
+      <nodes>
+        <classShapeMoniker Id="6669f5ee-de26-4780-ba19-1b11af6e4c19" />
+        <classShapeMoniker Id="e88e8a96-d7ba-463d-8770-493012c65f95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 25.9815991210938); (20.5 : 25.9815991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Category/Category_CatPublicity" />
+      <nodes>
+        <classShapeMoniker Id="6669f5ee-de26-4780-ba19-1b11af6e4c19" />
+        <classShapeMoniker Id="0621283c-7d89-4710-81eb-11978b285140" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 65.0873120117188); (16.09375 : 65.0873120117188); (16.09375 : 50.5881982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Contract/Contract_AccountDetail" />
+      <nodes>
+        <classShapeMoniker Id="0a1f693b-04a4-441f-926b-a4af8d217b27" />
+        <classShapeMoniker Id="9f8a6527-6ada-43e9-bb02-ff6ec0f166e1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 26.9631982421875); (20.125 : 27.3381982421875); (20.125 : 29.9239005533854); (20.5 : 29.9239005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Category/Category_CouponCategory" />
+      <nodes>
+        <classShapeMoniker Id="6669f5ee-de26-4780-ba19-1b11af6e4c19" />
+        <classShapeMoniker Id="53615383-02e8-41d6-8909-e394eda560d5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.47760602088341 : 21.5112939453125); (8.875 : 21.9086879244291); (8.875 : 42.625); (8.5 : 43)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Estado/Estado_FiscalDetail" />
+      <nodes>
+        <classShapeMoniker Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" />
+        <classShapeMoniker Id="ff0717a9-027c-4e1c-b72e-55e71ca8176f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 47.5); (7.5 : 47.125); (14.625 : 47.125); (14.625 : 33.625); (13.0625005 : 33.625); (13.0625005 : 34)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Tag" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="ddb61e2c-3015-4e8b-bb3e-fd5d2fbbedfd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 50.1454511946615); (11.25 : 50.1454511946615); (11.25 : 42.0208968098958); (14.5416666666667 : 42.0208968098958 : JumpStart); (14.7083333333333 : 42.0208968098958 : JumpEnd); (17.125 : 42.0208968098958); (17.125 : 39.2804996744792); (14.75 : 39.2804996744792); (14.75 : 36.2131982421875); (16 : 36.2131982421875); (16 : 35.8381982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_AdvertiserCategory" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="e88e8a96-d7ba-463d-8770-493012c65f95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 50.9499508632812); (16.90625 : 50.9499508632812); (16.90625 : 39.0304996744792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Announce" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="0e093837-d7f5-4bac-97a4-824e2099fb7f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 48.6548510130208); (10.2916666666667 : 48.6548510130208 : JumpStart); (10.4583333333333 : 48.6548510130208 : JumpEnd); (10.7604191666667 : 48.6548510130208 : JumpStart); (10.9270858333333 : 48.6548510130208 : JumpEnd); (11.1666666666667 : 48.6548510130208 : JumpStart); (11.3333333333333 : 48.6548510130208 : JumpEnd); (11.5416666666667 : 48.6548510130208 : JumpStart); (11.7083333333333 : 48.6548510130208 : JumpEnd); (11.75 : 48.6548510130208); (11.75 : 30.4824039713542); (13 : 30.4824039713542); (13 : 30.2324039713542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_CouponSet" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="609f7cfa-b399-4123-b080-edb4236df95a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 46.6939111328125); (7.5 : 47.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/FiscalDetail/FiscalDetail_Franchisee" />
+      <nodes>
+        <classShapeMoniker Id="ff0717a9-027c-4e1c-b72e-55e71ca8176f" />
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 47.5615374615385); (9.0625 : 46.9990374615385); (9.0625 : 39.1458968098958); (10.0572904166667 : 39.1458968098958 : JumpStart); (10.2239570833333 : 39.1458968098958 : JumpEnd); (10.7604191666667 : 39.1458968098958 : JumpStart); (10.9270858333333 : 39.1458968098958 : JumpEnd); (11.625 : 39.1458968098958); (12 : 38.7708968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Gallery" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="581d4892-0eba-4131-9cf7-253fbc238c62" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.23159912109375); (3.5 : 2.23159912109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/GeneralSetUp/GeneralSetUp_GenPublicity" />
+      <nodes>
+        <classShapeMoniker Id="bd66b178-6a02-4fa8-9bb6-3aac840c73f4" />
+        <classShapeMoniker Id="2c658f80-7ec4-4d95-9a04-3cbba18ef87c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 44.457148844401); (6.5 : 44.457148844401)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Municipio/Municipio_FiscalDetail" />
+      <nodes>
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+        <classShapeMoniker Id="ff0717a9-027c-4e1c-b72e-55e71ca8176f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 45.7035953776042); (6.125 : 46.0785953776042); (6.125 : 49.6354077148438); (6.5 : 49.6354077148438)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Municipio/Municipio_Franchisee" />
+      <nodes>
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.468748 : 21.5112939453125); (7.468748 : 23.125); (6.20833333333333 : 23.125 : JumpStart); (6.04166666666667 : 23.125 : JumpEnd); (6 : 23.125); (6 : 45.2933205332032); (5.75 : 45.2933205332032)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Estado/Estado_Municipio" />
+      <nodes>
+        <classShapeMoniker Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" />
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 47.9687505); (19 : 47.9687505); (19 : 36.6266097005208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Office" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="a79066b4-dc71-41b5-9cda-c4292c5b1413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 44.472770844401); (6.4375 : 44.472770844401); (6.4375 : 42.625); (9.32291666666667 : 42.625 : JumpStart); (9.48958333333333 : 42.625 : JumpEnd); (14.5416666666667 : 42.625 : JumpStart); (14.7083333333333 : 42.625 : JumpEnd); (18.468748 : 42.625); (18.468748 : 36.6266097005208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Municipio/Municipio_Office" />
+      <nodes>
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+        <classShapeMoniker Id="a79066b4-dc71-41b5-9cda-c4292c5b1413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.15625 : 42.875); (14.15625 : 38.9319482421875); (14.4166666666667 : 38.9319482421875 : JumpStart); (14.8333333333333 : 38.9319482421875 : JumpEnd); (15 : 38.9319482421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Page/Page_Announce" />
+      <nodes>
+        <classShapeMoniker Id="b4ca82dc-455d-4ec7-bd24-51a3cb56d055" />
+        <classShapeMoniker Id="0e093837-d7f5-4bac-97a4-824e2099fb7f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.4531245 : 40.375); (8.4531245 : 28.0312505); (8.94791666666667 : 28.0312505 : JumpStart); (9.11458333333333 : 28.0312505 : JumpEnd); (10.1666666666667 : 28.0312505 : JumpStart); (10.3333333333333 : 28.0312505 : JumpEnd); (12 : 28.0312505)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Personal/Personal_CouponSet" />
+      <nodes>
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+        <classShapeMoniker Id="609f7cfa-b399-4123-b080-edb4236df95a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.4531245 : 40.375); (8.4531245 : 28.32812775); (10.1666666666667 : 28.32812775 : JumpStart); (10.3333333333333 : 28.32812775 : JumpEnd); (12 : 28.32812775)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Personal/Personal_CouponSet1" />
+      <nodes>
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+        <classShapeMoniker Id="609f7cfa-b399-4123-b080-edb4236df95a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.94307692307692 : 47.5); (7.58122374801486 : 47.4169946286285 : JumpStart); (7.36573640754974 : 47.367564064096 : JumpEnd); (6.3125 : 47.1259625384615); (6.3125 : 42.6522073946815); (6.50150915249399 : 42.3381982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Personal" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 41.3181469726563); (6.5 : 41.3181469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/PersonalType/PersonalType_Personal" />
+      <nodes>
+        <classShapeMoniker Id="eea3da16-2e38-4633-b4d9-6124b07f71ea" />
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 49.3409515260417); (11.1666666666667 : 49.3409515260417 : JumpStart); (11.3333333333333 : 49.3409515260417 : JumpEnd); (11.625 : 49.3409515260417); (11.625 : 42.2708968098958); (14.5416666666667 : 42.2708968098958 : JumpStart); (14.7083333333333 : 42.2708968098958 : JumpEnd); (17.25 : 42.2708968098958); (17.25 : 39.5304996744792); (17.2083333333333 : 39.5304996744792 : JumpStart); (17.0416666666667 : 39.5304996744792 : JumpEnd); (14.7083333333333 : 39.5304996744792 : JumpStart); (14.5416666666667 : 39.5304996744792 : JumpEnd); (14.5 : 39.5304996744792); (14.5 : 33.2131982421875); (14.8541666666667 : 33.2131982421875 : JumpStart); (15.0208333333333 : 33.2131982421875 : JumpEnd); (16 : 33.2131982421875); (16 : 32.8381982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Phone" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="08fe8444-74d3-434e-92d5-5e5a0f1c9482" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.15625 : 26.6362939453125); (14.15625 : 32.7083943098958); (15 : 32.7083943098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/PhoneType/PhoneType_Phone" />
+      <nodes>
+        <classShapeMoniker Id="f6b13f0b-40d7-4035-be3e-8b7c3c4f5595" />
+        <classShapeMoniker Id="08fe8444-74d3-434e-92d5-5e5a0f1c9482" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.05692307692308 : 47.5); (7.42000238400782 : 47.3940616223875 : JumpStart); (7.57999761599218 : 47.3473786113443 : JumpEnd); (9.40625 : 46.8145192307692); (9.40625 : 40.8854484049479); (14.5416666666667 : 40.8854484049479 : JumpStart); (14.7083333333333 : 40.8854484049479 : JumpEnd); (14.75 : 40.8854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Picture" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="4e0ae017-0ba9-4f15-a64e-08aa07257912" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.0937495 : 38.7708968098958); (13.0937495 : 40.411471702474); (14.5416666666667 : 40.411471702474 : JumpStart); (14.7083333333333 : 40.411471702474 : JumpEnd); (14.75 : 40.411471702474)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Gallery/Gallery_Picture" />
+      <nodes>
+        <classShapeMoniker Id="581d4892-0eba-4131-9cf7-253fbc238c62" />
+        <classShapeMoniker Id="4e0ae017-0ba9-4f15-a64e-08aa07257912" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 50.107001546224); (6.5 : 50.107001546224)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/ShareLevel/ShareLevel_Franchisee" />
+      <nodes>
+        <classShapeMoniker Id="7d6d1319-1b1f-49ec-9506-d916ea1f0c07" />
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="00269ecf-c4c4-4fe1-be18-1519de2ec886" absoluteBounds="9.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/VwCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb109b52-c4e0-4356-8075-e6a2053a1484" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" absoluteBounds="17.625, 28, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Coupon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8133b184-28c6-4b2b-99d8-746a72c6ed18" absoluteBounds="17.64, 28.46, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(19.625 : 29.2744502766927); (20.5 : 29.2744502766927)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Coupon/Coupon_CouponCategory" />
+      <nodes>
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+        <classShapeMoniker Id="53615383-02e8-41d6-8909-e394eda560d5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14 : 29.9655989583333); (14.0729166666667 : 29.9655989583333 : JumpStart); (14.2395833333333 : 29.9655989583333 : JumpEnd); (14.8541666666667 : 29.9655989583333 : JumpStart); (15.0208333333333 : 29.9655989583333 : JumpEnd); (17.625 : 29.9655989583333)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/CouponSet/CouponSet_Coupon" />
+      <nodes>
+        <classShapeMoniker Id="609f7cfa-b399-4123-b080-edb4236df95a" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17 : 28.9431469726563); (17.625 : 28.9431469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/CouponStatus/CouponStatus_Coupon" />
+      <nodes>
+        <classShapeMoniker Id="816e7dc9-eccc-43a4-a70c-72baba32f8e7" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 51.2444070520833); (10.7604191666667 : 51.2444070520833 : JumpStart); (10.9270858333333 : 51.2444070520833 : JumpEnd); (17.6718725 : 51.2444070520833); (17.6718725 : 32.6554182942708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Coupon" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.35155975 : 40.375); (8.35155975 : 30.6041984049479); (8.36979116666667 : 30.6041984049479 : JumpStart); (8.53645783333333 : 30.6041984049479 : JumpEnd); (8.94791666666667 : 30.6041984049479 : JumpStart); (9.11458333333333 : 30.6041984049479 : JumpEnd); (14.0729166666667 : 30.6041984049479 : JumpStart); (14.2395833333333 : 30.6041984049479 : JumpEnd); (14.8541666666667 : 30.6041984049479 : JumpStart); (15.0208333333333 : 30.6041984049479 : JumpEnd); (17.625 : 30.6041984049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Personal/Personal_Coupon" />
+      <nodes>
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.47656225 : 40.375); (8.47656225 : 30.708351702474); (8.79166666666667 : 30.708351702474 : JumpStart); (9.11458333333333 : 30.708351702474 : JumpEnd); (9.26041666666667 : 30.708351702474 : JumpStart); (9.42708333333333 : 30.708351702474 : JumpEnd); (11.3229166666667 : 30.708351702474 : JumpStart); (11.4895833333333 : 30.708351702474 : JumpEnd); (11.6666666666667 : 30.708351702474 : JumpStart); (11.8333333333333 : 30.708351702474 : JumpEnd); (14.0729166666667 : 30.708351702474 : JumpStart); (14.2395833333333 : 30.708351702474 : JumpEnd); (14.8541666666667 : 30.708351702474 : JumpStart); (15.0208333333333 : 30.708351702474 : JumpEnd); (17.625 : 30.708351702474)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Personal/Personal_Coupon1" />
+      <nodes>
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fc7e9e6a-cb9c-4afe-a252-04110ac1bd4c" absoluteBounds="12.875, 21.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/PublicityAdvertiser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d90f432c-97f0-4cd5-9986-4dba7ab426f1" absoluteBounds="12.89, 22.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 20.759701283729); (13.875 : 20.759701283729); (13.875 : 21.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Estado/Estado_PublicityAdvertiser" />
+      <nodes>
+        <classShapeMoniker Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" />
+        <classShapeMoniker Id="fc7e9e6a-cb9c-4afe-a252-04110ac1bd4c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 44.125); (4.75 : 42.2612939453125); (6.125 : 42.2612939453125); (6.125 : 22.4375005); (7.93228816666667 : 22.4375005 : JumpStart); (8.09895483333333 : 22.4375005 : JumpEnd); (10.5416666666667 : 22.4375005 : JumpStart); (10.7083333333333 : 22.4375005 : JumpEnd); (12.875 : 22.4375005)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Municipio/Municipio_PublicityAdvertiser" />
+      <nodes>
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+        <classShapeMoniker Id="fc7e9e6a-cb9c-4afe-a252-04110ac1bd4c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="27b682dc-e1b1-480a-a734-922546276b0c" absoluteBounds="1, 8, 2, 3.1170068359375">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/VwAdvertiser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50d3b090-c8a1-409e-87c6-51bcca7ffcb7" absoluteBounds="1.0150000000000001, 8.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" absoluteBounds="9.5, 31.5, 2, 7.1553369140625">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Advertiser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00b0c245-0277-437a-a6bf-042339ade30c" absoluteBounds="9.515, 31.96, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.5 : 34.8854484049479); (12 : 34.8854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Tag" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="ddb61e2c-3015-4e8b-bb3e-fd5d2fbbedfd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 36.8016446595052); (11.6666666666667 : 36.8016446595052 : JumpStart); (11.8333333333333 : 36.8016446595052 : JumpEnd); (11.875 : 36.8016446595052); (11.875 : 48.25); (15.75 : 48.25); (15.75 : 48.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_AccountDetail" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="9f8a6527-6ada-43e9-bb02-ff6ec0f166e1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 33.90625); (12.9791671666667 : 33.90625 : JumpStart); (13.1458338333333 : 33.90625 : JumpEnd); (14.5416666666667 : 33.90625 : JumpStart); (14.7083333333333 : 33.90625 : JumpEnd); (15 : 33.90625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_AdvertiserCategory" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="e88e8a96-d7ba-463d-8770-493012c65f95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 36.90625); (14.5416666666667 : 36.90625 : JumpStart); (14.7083333333333 : 36.90625 : JumpEnd); (15 : 36.90625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Announce" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="0e093837-d7f5-4bac-97a4-824e2099fb7f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.375 : 38.6553369140625); (10.375 : 65.0873120117188); (12 : 65.0873120117188)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Contract" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="0a1f693b-04a4-441f-926b-a4af8d217b27" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.40625 : 31.5); (11.40625 : 27.73437275); (12 : 27.73437275)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_CouponSet" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="609f7cfa-b399-4123-b080-edb4236df95a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 32.0392976888021); (12 : 32.0392976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Email" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="228315e1-3402-4a38-ba1d-94ee5b878dab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 37.8276684570313); (12 : 37.8276684570313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Gallery" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="581d4892-0eba-4131-9cf7-253fbc238c62" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 36.4824039713542); (11.6666666666667 : 36.4824039713542 : JumpStart); (11.8333333333333 : 36.4824039713542 : JumpEnd); (14.4166666666667 : 36.4824039713542 : JumpStart); (14.8333333333333 : 36.4824039713542 : JumpEnd); (17.5885391666667 : 36.4824039713542 : JumpStart); (17.7552058333333 : 36.4824039713542 : JumpEnd); (18 : 36.4824039713542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Office" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="a79066b4-dc71-41b5-9cda-c4292c5b1413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.4218725 : 31.5); (10.4218725 : 30.90625); (11.3229166666667 : 30.90625 : JumpStart); (11.4895833333333 : 30.90625 : JumpEnd); (11.6666666666667 : 30.90625 : JumpStart); (11.8333333333333 : 30.90625 : JumpEnd); (14.0729166666667 : 30.90625 : JumpStart); (14.2395833333333 : 30.90625 : JumpEnd); (15 : 30.90625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Phone" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="08fe8444-74d3-434e-92d5-5e5a0f1c9482" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 32.9815991210938); (14.8541666666667 : 32.9815991210938 : JumpStart); (15.0208333333333 : 32.9815991210938 : JumpEnd); (17.83593875 : 32.9815991210938); (17.83593875 : 32.6554182942708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_Coupon" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="1c9815e2-c782-4327-b41a-d600fa7f7c99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 32.9319482421875); (9.5 : 32.9319482421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/aspnet_User/aspnet_User_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="6f9c702c-bfa2-4f68-b6d0-4bc5a6d0fd96" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 21.4569075674579); (9.03125 : 21.9881575674579); (9.03125 : 34.784281123291); (9.5 : 34.784281123291)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Estado/Estado_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 44.8782080664063); (8.97916666666667 : 44.8782080664063 : JumpStart); (9.14583333333333 : 44.8782080664063 : JumpEnd); (9.32291666666667 : 44.8782080664063 : JumpStart); (9.48958333333333 : 44.8782080664063 : JumpEnd); (9.9062475 : 44.8782080664063); (9.9062475 : 38.6553369140625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/FiscalDetail/FiscalDetail_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="ff0717a9-027c-4e1c-b72e-55e71ca8176f" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 49.7432013603516); (9.67187125 : 49.7432013603516); (9.67187125 : 38.6553369140625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Franchisee/Franchisee_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="3a01fda1-791d-4f9b-a883-a815b373c3b9" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 44.8830456888021); (5.875 : 44.8830456888021); (5.875 : 42.75); (6.35416666666667 : 42.75 : JumpStart); (6.52083333333333 : 42.75 : JumpEnd); (9.32291666666667 : 42.75 : JumpStart); (9.48958333333333 : 42.75 : JumpEnd); (10.14062375 : 42.75); (10.14062375 : 38.6553369140625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Municipio/Municipio_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="91edf28b-ad0c-4f5d-86fb-2bb25dd9d3f2" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.4277333125 : 40.375); (8.4277333125 : 36.0954677202149); (9.5 : 36.0954677202149)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Personal/Personal_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="9079bfd4-b983-47bb-be95-5eb3b9e4f6d8" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3c3b6266-0a12-4fa2-91a3-e1ddfb8d6cb7" absoluteBounds="11.875, 52.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/ClubCard" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6272ef9-9692-4508-8d04-d5c75b86c265" absoluteBounds="11.89, 52.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.8437525 : 38.6553369140625); (10.8437525 : 53.1065991210938); (11.875 : 53.1065991210938)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Advertiser/Advertiser_ClubCard" />
+      <nodes>
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+        <classShapeMoniker Id="3c3b6266-0a12-4fa2-91a3-e1ddfb8d6cb7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fc6941a8-1ad6-479b-8bc9-d3961897ceef" absoluteBounds="2.75, 22.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/VwCardClubGuest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="886c892f-2e1f-4d11-b753-db1ac12e47da" absoluteBounds="2.7649999999999997, 23.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" absoluteBounds="6.5, 23.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/City" />
+      <nestedChildShapes>
+        <elementListCompartment Id="daec515a-588a-40dd-b756-c3191ffadae4" absoluteBounds="6.5150000000000006, 23.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 24.8469962565104); (8.94791666666667 : 24.8469962565104 : JumpStart); (9.11458333333333 : 24.8469962565104 : JumpEnd); (19.90625 : 24.8469962565104); (19.90625 : 33.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/City/City_Office" />
+      <nodes>
+        <classShapeMoniker Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" />
+        <classShapeMoniker Id="a79066b4-dc71-41b5-9cda-c4292c5b1413" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.38964653125 : 25.1458968098958); (8.38964653125 : 33.4730945263672); (9.5 : 33.4730945263672)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/City/City_Advertiser" />
+      <nodes>
+        <classShapeMoniker Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" />
+        <classShapeMoniker Id="d481d2dd-1bca-4793-aa57-8b1b90a0157f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.0156215 : 21.5112939453125); (8.0156215 : 23.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/Estado/Estado_City" />
+      <nodes>
+        <classShapeMoniker Id="db1e0745-69af-4c5d-ac9c-3fd64a22251c" />
+        <classShapeMoniker Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9973870a-046c-46dc-94ce-b1d38c889594" absoluteBounds="9.625, 23.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/ZonaMetropolitana" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd216cc2-0350-4b78-82be-dcd09a652d9c" absoluteBounds="9.64, 23.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.625 : 24.0969962565104); (9.11458333333333 : 24.0969962565104 : JumpStart); (8.79166666666667 : 24.0969962565104 : JumpEnd); (8.5 : 24.0969962565104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/ZonaMetropolitana/ZonaMetropolitana_City" />
+      <nodes>
+        <classShapeMoniker Id="9973870a-046c-46dc-94ce-b1d38c889594" />
+        <classShapeMoniker Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0cf67fd8-ae59-424b-a8fb-3076b3cebb1b" absoluteBounds="9.625, 3.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DirLagunaModelDataContext/Publicity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4aae5e06-19ee-4052-9fe2-41d1a78d04a9" absoluteBounds="9.64, 4.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 23.375); (8.875 : 23); (10.625 : 23); (10.625 : 5.64589680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DirLagunaModelDataContext/City/City_Publicity" />
+      <nodes>
+        <classShapeMoniker Id="df05bd42-3adc-4d82-a68f-237a2bd885e5" />
+        <classShapeMoniker Id="0cf67fd8-ae59-424b-a8fb-3076b3cebb1b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

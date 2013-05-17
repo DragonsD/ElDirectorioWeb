@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="bsx.DirLaguna.Mobile.Shared.Base" %>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head runat="server">
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="Publysorpresas">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="/content/base.css">
+    <link rel="stylesheet" href="/content/skeleton.css">
+    <link rel="stylesheet" href="/content/layout.css">
+    <link rel="stylesheet" href="/content/site.css">
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <!-- Favicons
+	================================================== -->
+    <link rel="shortcut icon" href="/images/favicon2.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15471648-15']);
+        _gaq.push(['_setDomainName', 'eldirectorio.mx']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript">
+        var sc_project = 8462548;
+        var sc_invisible = 1;
+        var sc_security = "193fbf77";
+        var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
+"statcounter.com/counter/counter.js'></" + "script>");</script>
+    <noscript>
+        <div class="statcounter">
+            <a title="web analytics" href="http://statcounter.com/" target="_blank">
+                <img class="statcounter" src="https://c.statcounter.com/8462548/0/193fbf77/1/" alt="web analytics"></a></div>
+    </noscript>
+    <style type="text/css">
+        .termCondition a:link
+        {
+            color: #444444;
+        }
+        .termCondition a:visited
+        {
+            color: #444444;
+        }
+        .termCondition a:hover
+        {
+            color: #444444;
+        }
+        .termCondition a:active
+        {
+            color: #444444;
+        }
+        .termCondition
+        {
+            color: #444444;
+            font-size: 80%;
+        }
+        .termCondition a
+        {
+            text-decoration: none;
+        }
+    </style>
+    <meta name="description" content="ElDirectorio.mx la herramienta de publicidad más poderosa de México. Donde el que te busca te encuentra y el que no también" />
+    <meta name="keywords" content="el directorio, eldirectoriomx, directorio, directorio imagen, directorio mx, directorio torreon, torreon, franquicia, franquicia publicidad" />
+</head>
+<body runat="server" id="BodyTag">
+    <form id="form1" runat="server">
+    <div class="container">
+        <div id="header">
+            <asp:HyperLink ID="HomeHyperLink" CssClass="logo" runat="server" NavigateUrl="~/Default.aspx"
+                ImageUrl="~/images/ElDirectorio.png">
+            </asp:HyperLink>
+        </div>
+        <%-- --%>
+        <div class="sixteen columns pageContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <small>El Directorio © Copyright 2011, desarrollado por</small>
+            <div>
+                <asp:HyperLink ID="PublyHyperLink" CssClass="publy" runat="server" NavigateUrl="http://publysorpresas.com.mx/"
+                    ImageUrl="~/images/publylogo.png">
+                </asp:HyperLink>
+            </div>
+            <div class="termCondition">
+                <a href="../TermConditions.aspx">Términos y condiciones</a> | <a href="../Politycs.aspx">
+                    Aviso de privacidad</a>
+            </div>
+            <div class="termCondition">
+                <a href="/FranchisesForm.aspx">Franquicias</a> | <a href="/ContactForm.aspx">Anúnciate</a>
+            </div>
+            <div>
+                <asp:HyperLink ID="SeeSiteCompleteHyperLink" CssClass="termCondition siteCompleted " runat="server" NavigateUrl="http://eldirectorio.mx/HomeForm.aspx">Ver Sitio Completo
+                </asp:HyperLink>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/scripts/tabs.js"></script>
+</body>
+</html>

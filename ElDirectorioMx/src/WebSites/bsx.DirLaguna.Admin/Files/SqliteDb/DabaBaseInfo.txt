@@ -1,0 +1,3 @@
+﻿Se opta por tener 2 bases de datos.
+Una con el esquema anterior y una con el esquema nuevo con el proposito de mantener la aplicación actual funcionando.
+Va a depender de un parametro enviado en el request del handler que version de la base de datos se le va a enviar al cliente.

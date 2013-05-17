@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Public.master.cs" Inherits="bsx.DirLaguna.Advertiser.Shared.Public" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="/Blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/Blueprint/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="../Content/css2/site.css" type="text/css" media="screen" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/Blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.placeholder.js">
+    </script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="public">
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <div id="headerContainer">
+                <h1 id="logo">
+                    <a id="home" title="Admin Directorio Laguna" href='/AccountForm.aspx'>
+                        <%--<span>
+                            <%= Resources.Resource.TextNameSystemInvoices %></span>--%>
+                        <asp:Image ID="LogoImage" runat="server" ImageUrl="~/Content/Image/LogoElDirectorio.png"
+                            AlternateText="" />
+                    </a>
+                </h1>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-wrapper">
+                <div class="container">
+                    <span class="quiet">El Directorio Virtual © Copyright 2012, desarrollado por</span>
+                    <div>
+                        <asp:HyperLink ID="Publysorpresas" runat="server" NavigateUrl="http://publysorpresas.com.mx/"
+                            ToolTip="Publysorpresas" ImageUrl="~/Content/Image/LogoPubly.png"></asp:HyperLink>
+                    </div>
+                    <asp:PlaceHolder ID="FooterPlaceHolder" runat="server" Visible="false">© 2012 <strong>
+                        ElDirectorio.com</strong> </asp:PlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('input.whatField').placeholder();
+        });
+
+    </script>
+    </form>
+</body>
+</html>

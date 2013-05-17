@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="bsx.DirLaguna.Admin.Shared.Base" %>
+
+<%@ Register Src="../Controls/WebMessageBox.ascx" TagName="MessageBox" TagPrefix="bsx" %>
+<%@ Register Src="../Controls/MenuControl.ascx" TagName="Menu" TagPrefix="bsx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="/Blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/Blueprint/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="../App_Themes/Laguna/sunny/jquery-ui-1.8.16.custom.css"
+        type="text/css" media="screen" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/Blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <link rel="stylesheet" href="/App_Themes/Laguna/main.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="../Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery.ui.datepicker-es.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="BodyItem" runat="server">
+    <form id="form1" runat="server">
+    <div id="container">
+        <bsx:MessageBox ID="MessagePanel" runat="server" ShowCloseButton="true" Visible="false" />
+        <%--        <div id="header">
+            <div id="headerContainer">
+                <h1 id="logo">
+                    <a id="home" title="Admin Directorio Laguna" href='#'></a>
+                </h1>
+                <div id="header_buttons">
+                    <a href="http://soporte.facturagorila.com"><span>Ayuda</span></a> <span class="link-separator">
+                        | </span>
+                    <asp:PlaceHolder ID="LoggedUserMenu" runat="server" Visible="false"><span class="headerLabel">
+                        <asp:Label ID="availableInvoicesLabel" runat="server" Text="Sin texto" Font-Bold="true"></asp:Label>
+                    </span><span class="link-separator">| </span>
+                        <asp:HyperLink ID="ProfileHyperLink" runat="server">
+                            <asp:LoginName ID="loginName" CssClass="userNameLabel" runat="server" />
+                        </asp:HyperLink>
+                        <span class="link-separator">| </span>
+                        <span></span>
+                        <asp:LoginStatus ID="LoginStatus1" LogoutText="Cerrar Sesion" LoginText="Iniciar Sesion"
+                            LogoutPageUrl="/Logout.aspx" LogoutAction="Redirect" runat="server" />
+                    </asp:PlaceHolder>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>--%>
+        <%--        <div id="mainMenuHeader">
+            <bsx:Menu ID="Menu1" runat="server" />
+            <div class="clear">
+            </div>
+        </div>--%>
+        <!-- end #header -->
+        <%--        <div id="content">
+            <div class="container">
+                <div class="innerContainer">--%>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <%--<div style="clear: both;">
+                    </div>
+                </div>
+            </div>
+        </div>--%>
+        <!-- push footer down -->
+        <div id="push">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,381 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="bsx.DirLaguna.Public.Shared.Base" %>
+
+<%@ Register Src="../Controls/coda_slider.ascx" TagName="CodaSlider" TagPrefix="uc1" %>
+<%@ Register Src="../Controls/MenuControl.ascx" TagName="Menu" TagPrefix="bsx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="/Blueprint/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/Blueprint/print.css" type="text/css" media="print" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/Blueprint/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <link rel="shortcut icon" href="/Content/css2/img/favicon.ico">
+    <link rel="stylesheet" href="/Content/css2/site.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/Content/css/azul/jquery-ui-1.8.17.custom.css" type="text/css"
+        media="screen, projection" />
+    <style type="text/css">
+        .ui-button { margin-left: -1px; }
+        .ui-button-icon-only .ui-button-text { padding: 0.35em; }
+        .ui-autocomplete-input { margin: 0; padding: 0.48em 0 0.47em 0.45em; text-align: left; }
+        .ui-autocomplete { text-align: left; }
+    </style>
+    <style type="text/css">
+        #map_canvas { height: 30px; }
+        .placeholder { color: #aaa; }
+        .PLACEHOLDER-LABEL { margin-top: 13px; margin-left: 3px; }
+    </style>
+    <style type="text/css">
+        .termCondition a:link { color: #FFFFFF; }
+        .termCondition a:visited { color: #FFFFFF; }
+        .termCondition a:hover { color: #FFFFFF; }
+        .termCondition a:active { color: #FFFFFF; }
+        .termCondition { color: #ffffff; }
+    </style>
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js">
+    </script>
+    <link rel="Stylesheet" type="text/css" href="/Content/css/coda-slider-2.0.css" media="all" />
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAeDPbRR8cx6ZoDIhJhauDaV9z3kCtQpiM&sensor=false">
+    </script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15471648-15']);
+        _gaq.push(['_setDomainName', 'eldirectorio.mx']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript">
+        var sc_project = 8462548;
+        var sc_invisible = 1;
+        var sc_security = "193fbf77";
+        var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
+"statcounter.com/counter/counter.js'></" + "script>");</script>
+    <noscript>
+        <div class="statcounter">
+            <a title="web analytics" href="http://statcounter.com/" target="_blank">
+                <img class="statcounter" src="https://c.statcounter.com/8462548/0/193fbf77/1/" alt="web analytics"></a></div>
+    </noscript>
+    <script type="text/javascript" src="/Scripts/jquery.placeholder.js">
+    </script>
+    <meta name="description" content="ElDirectorio.mx la herramienta de publicidad más poderosa de México. Donde el que te busca te encuentra y el que no también" />
+    <meta name="keywords" content="el directorio, eldirectoriomx, directorio, directorio imagen, directorio mx, directorio torreon, torreon, franquicia, franquicia publicidad" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <div id="logoContainer" class="span-7">
+                <a href="/HomeForm.aspx" id="logo">
+                    <asp:Image ID="LogoImage" runat="server" ImageUrl="~/content/css2/img/LogoElDirectorio.png"
+                        AlternateText="El Directorio" />
+                </a>
+            </div>
+            <div id="headerContainer" class="span-22 last">
+                <div id="menu">
+                    <div id="mainMenuHeader">
+                        <bsx:Menu ID="Menu1" runat="server" />
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="PrePageContentPlaceHolder" runat="server">
+                <div id="rotatorContainer">
+                    <uc1:CodaSlider ID="CodaSlider1" runat="server" Visible="true" />
+                </div>
+                <%--<div id="rotatorBottomsdasd" style="height: 40px">
+                </div>--%>
+            </asp:ContentPlaceHolder>
+            <div id="filters">
+                <asp:Panel ID="FormPanel" CssClass="FormPanel" runat="server" DefaultButton="SearchButton">
+                    <h4>
+                        Encuentra el negocio que busques:
+                    </h4>
+                    <div class="filterField span-10 whatField">
+                        <%--<label>
+                            Encuentra</label>--%>
+                        <asp:TextBox placeholder="Busca por palabra clave (pizza, computación, bar)" ID="SearchTextBox"
+                            runat="server" CssClass="text whatField"></asp:TextBox>
+                    </div>
+                    <div class="filterField span-11 last">
+                        <%--<label>
+                            En</label>--%>
+                        <asp:DropDownList ID="WhereDropDownList" runat="server" DataTextField="Name" DataValueField="CityId">
+                            <asp:ListItem Text="Todas las ciudades" Value="0">
+                            </asp:ListItem>
+                        </asp:DropDownList>
+                        <div class="filterFieldButton">
+                            <asp:LinkButton ID="SearchButton" runat="server" CssClass="searchButton" Text="Buscar">
+                            <span>B</span>
+                            </asp:LinkButton>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </asp:Panel>
+            </div>
+            <asp:ContentPlaceHolder ID="PreContainerPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="container">
+                <div class="span-17">
+                    <asp:ContentPlaceHolder ID="PageContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <asp:ContentPlaceHolder ID="AdsPageContentPlaceHolder" runat="server">
+                    <div class="span-7 last">
+                        <div id="socialLinks">
+                            <div class="span-3">
+                                <a href='<%= this.UrlPageFacebook %>' target="_blank">
+                                    <img src="../Content/Image/facebook2.png" alt="Facebook" width="120px" height="120px" />
+                                </a>
+                            </div>
+                            <div class="span-4 last">
+                                <a href='<%= this.UrlPageTwitter %>' target="_blank">
+                                    <img src="../Content/Image/twitter2.png" alt= /></a>
+                            </div>
+                        </div>
+                        <div class="span-7 last adsContainerWrapper">
+                            <div class="adsContainer">
+								<div id="flashmovie" runat="server" style="margin-left:auto; margin-right:auto">
+                                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="260" height="600"
+                                        id="movie_name" align="middle">
+                                        <param name="movie" value="MainFlash.swf" />
+                                        <!--[if !IE]>-->
+                                        <object type="application/x-shockwave-flash" data='<%=this.FlashUrl %>' width="260"
+                                            height="600">
+                                            <param name="movie" value="MainFlash.swf" />
+                                            <!--<![endif]-->
+                                            <a href="http://www.adobe.com/go/getflash">
+                                                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                                                    alt="Get Adobe Flash player" />
+                                            </a>
+                                            <!--[if !IE]>-->
+                                        </object>
+                                        <!--<![endif]-->
+                                    </object>
+                                </div>
+                                <asp:DataList ID="PublicityDataList" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow" DataSourceID="PublicityDataSource">
+                                    <ItemTemplate>
+                                        <div class="pu">
+                                            <a href='<%#Eval("WebPage")%>' target="_blank">
+                                                <asp:Image ID="publicityImage" runat="server" AlternateText="Image" ImageUrl='<%#this.PublicityPictureUrl((int)Eval("PublicityId"))%>' />
+                                            </a>
+                                        </div>
+                                    </ItemTemplate>
+                                </asp:DataList>
+                                <asp:ObjectDataSource ID="PublicityDataSource" runat="server" TypeName="bsx.DirLaguna.Dal.SelectControllers.PublicityController" OnSelecting="PublicityDataSource_Selecting" SelectMethod="FetchbyCity">
+                                    <SelectParameters>
+                                        <asp:ControlParameter ControlID="WhereDropDownList" DefaultValue="" Name="cityId" PropertyName="SelectedValue" Type="Int32" />
+                                        <asp:Parameter Name="startRowIndex" Type="Int32" />
+                                        <asp:Parameter Name="maximumRows" Type="Int32" />
+                                    </SelectParameters>
+                                </asp:ObjectDataSource>
+                            </div>
+                            <div class="adsContainerFooter">
+                            </div>
+                        </div>
+                        <div id="linksAdmin">
+                            <div class="span-7 last">
+                                <div class="link">
+                                    <a href='<%= this.UrlPathFranchisee %>'>Franquiciatarios</a>
+                                </div>
+                            </div>
+                            <%--                            <div class="span-7 last">
+                                <div class="link">
+                                    <a href='<%= this.UrlPathProspection %>'>Prospectación</a>
+                                </div>
+                            </div>
+                            <div class="span-7 last">
+                                <div class="link">
+                                    <a href='<%= this.UrlPathAdmin %>'>Administrador</a>
+                                </div>
+                            </div>--%>
+                        </div>
+                    </div>
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="PostPageContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-wrapper">
+                <div class="container">
+                    <span class="quiet">El Directorio © Copyright 2011, desarrollado por</span>
+                    <div>
+                        <asp:HyperLink ID="Publysorpresas" runat="server" NavigateUrl="http://publysorpresas.com.mx/"
+                            ToolTip="Publysorpresas" ImageUrl="~/Content/Image/LogoPubly.png"></asp:HyperLink>
+                    </div>
+                    <%--<a href="http://www.bisimplex.com">Bisimplex</a>--%>
+                    <%--| <a href="#">Ayuda</a><br />--%>
+                    <div class="termCondition">
+                        <a href="../TermConditions.aspx">Términos y condiciones      </div>
+                    <asp:PlaceHolder ID="FooterPlaceHolder" runat="server" Visible="false">© 2011 <strong>
+                        DirectorioLaguna.com</strong> </asp:PlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+
+
+        (function ($) {
+            $.widget("ui.combobox", {
+                _create: function () {
+                    var self = this,
+                    select = this.element.hide(),
+                    selected = select.children(":selected"),
+                    value = selected.val() ? selected.text() : "";
+                    var input = this.input = $("<input>")
+                    .insertAfter(select)
+                    .val(value)
+                    .autocomplete({
+                        delay: 0,
+                        minLength: 0,
+                        source: function (request, response) {
+                            var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
+                            response(select.children("option").map(function () {
+                                var text = $(this).text();
+                                if (this.value && (!request.term || matcher.test(text)))
+                                    return {
+                                        label: text.replace(
+                                            new RegExp(
+                                                "(?![^&;]+;)(?!<[^<>]*)(" +
+                                                $.ui.autocomplete.escapeRegex(request.term) +
+                                                ")(?![^<>]*>)(?![^&;]+;)", "gi"
+                                            ), "<strong>$1</strong>"),
+                                        value: text,
+                                        option: this
+                                    };
+                            }));
+                        },
+                        select: function (event, ui) {
+                            ui.item.option.selected = true;
+                            self._trigger("selected", event, {
+                                item: ui.item.option
+                            });
+                        },
+                        change: function (event, ui) {
+                            if (!ui.item) {
+                                var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex($(this).val()) + "$", "i"),
+                                    valid = false;
+                                select.children("option").each(function () {
+                                    if ($(this).text().match(matcher)) {
+                                        this.selected = valid = true;
+                                        return false;
+                                    }
+                                });
+                                if (!valid) {
+                                    // remove invalid value, as it didn't match anything
+                                    $(this).val("");
+                                    select.val("");
+                                    input.data("autocomplete").term = "";
+                                    return false;
+                                }
+                            }
+                        }
+                    })
+                    .addClass("ui-widget ui-widget-content text");
+                    //ui-corner-left
+                    input.data("autocomplete")._renderItem = function (ul, item) {
+                        return $("<li></li>")
+                        .data("item.autocomplete", item)
+                        .append("<a>" + item.label + "</a>")
+                        .appendTo(ul);
+                    };
+
+                    this.button = $("<button type='button'>&nbsp;</button>")
+                    .attr("tabIndex", -1)
+                    .attr("title", "Show All Items")
+                    .insertAfter(input)
+                    .button({
+                        icons: {
+                            primary: "ui-icon-triangle-1-s"
+                        },
+                        text: false
+                    })
+                    .removeClass("ui-corner-all")
+                    .addClass("ui-corner-right ui-button-icon")
+                    .click(function () {
+                        // close if already visible
+                        if (input.autocomplete("widget").is(":visible")) {
+                            input.autocomplete("close");
+                            return;
+                        }
+
+                        // work around a bug (likely same cause as #5265)
+                        $(this).blur();
+
+                        // pass empty string as value to search for, displaying all results
+                        input.autocomplete("search", "");
+                        input.focus();
+                    });
+                },
+
+                destroy: function () {
+                    this.input.remove();
+                    this.button.remove();
+                    this.element.show();
+                    $.Widget.prototype.destroy.call(this);
+                }
+            });
+        })(jQuery);
+
+        $(function () {
+            $("#<%=this.WhereDropDownList.ClientID %>").combobox();
+        });
+    </script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            /*placeholderSupport = ("placeholder" in document.createElement("input"));
+            if (!placeholderSupport) {
+            $('[placeholder]').focus(function () {
+            var input = $(this);
+            if (input.val() == input.attr('placeholder')) {
+            input.val('');
+            input.removeClass('placeholder');
+            }
+            }).blur(function () {
+            var input = $(this);
+            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+            input.addClass('placeholder');
+            input.val(input.attr('placeholder'));
+            }
+            }).blur().parents('form').submit(function () {
+            $(this).find('[placeholder]').each(function () {
+            var input = $(this);
+            if (input.val() == input.attr('placeholder')) {
+            input.val('');
+            }
+            })
+            });
+            }*/
+            $('input.whatField').placeholder();
+        });
+
+    </script>
+    <asp:ContentPlaceHolder ID="CustomJavascriptContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

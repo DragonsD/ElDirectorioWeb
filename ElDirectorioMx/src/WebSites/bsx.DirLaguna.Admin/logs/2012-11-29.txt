@@ -1,0 +1,55 @@
+2012-11-29 11:36:07.0114|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 11:36:07.1235|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=111&cl_id=1&ft_id=1&ve_desc=Sitio Web
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=erte&ds_extnum=35&ds_colonia=4erty&ds_ciudad=La Paz&ds_estado=Baja California Sur&ds_cp=34634&ds_rfc=ADC451010D34&ds_razonsocial=gdfgs
+2012-11-29 11:36:08.3804|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2012-11-29 11:36:08.3804|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Parse error</b>:  syntax error, unexpected T_ECHO, expecting ',' or ';' in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>66</b><br />
+2012-11-29 11:36:08.3804|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-29 11:55:13.5225|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 11:55:13.6634|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=112&cl_id=1&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=erte&ds_extnum=35&ds_intnum=&ds_colonia=4erty&ds_ciudad=La Paz&ds_estado=Baja California Sur&ds_cp=34634&ds_rfc=ADC451010D34&ds_razonsocial=gdfgs
+2012-11-29 11:55:15.0991|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<h1>DATOS FACTURACION</h1><p>ds_callenum => erte No. Ext35 </p><p>ds_entrecalles => </p><p>ds_colonia => 4erty</p><p>ds_ciudad => La Paz</p><p>ds_estado => Baja California Sur</p><p>ds_cp => 34634</p><p>ds_rfc => ADC451010D34</p><p>ds_razonsocial => gdfgs</p><h1>DATOS VENTA</h1><p>ve_id => 112</p><p>cl_id => 1</p><p>ve_desc => Aplicacion Android
+2012-11-29 11:55:15.0991|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 30/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 1</p><p>OK</p>
+2012-11-29 12:07:08.1442|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:07:08.2044|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=113&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=0
+2012-11-29 12:07:08.3638|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2012-11-29 12:07:08.3638|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>46</b><br />
+2012-11-29 12:07:08.3638|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2012-11-29 12:07:08.3774|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-29 12:12:14.4434|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:12:14.5371|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=114&cl_id=2&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=0
+2012-11-29 12:12:14.7564|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|SELECT cl_id FROM direcciones WHERE cl_id=2<h1>DATOS FACTURACION</h1><p>ds_callenum => prueba</p><p>ds_entrecalles => prueba</p><p>ds_colonia => prueba</p><p>ds_ciudad => prueba</p><p>ds_estado => prueba</p><p>ds_cp => 99999</p><p>ds_rfc => prueba</p><p>ds_razonsocial => prueba</p><h1>DATOS VENTA</h1><p>ve_id => 114</p><p>cl_id => 2</p><p>ve_desc => Aplicacion Android
+2012-11-29 12:12:14.7564|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 01/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 0</p><p>OK</p>
+2012-11-29 12:14:56.2704|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-29 12:14:56.2704|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-29 12:15:05.3233|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-29 12:15:56.6026|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:15:56.6994|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=115&cl_id=2&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=315&ds_intnum=&ds_colonia=Centro&ds_ciudad=Campeche&ds_estado=Campeche&ds_cp=35000&ds_rfc=XXXX010101X01&ds_razonsocial=test con factura
+2012-11-29 12:15:56.9103|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|SELECT cl_id FROM direcciones WHERE cl_id=2<h1>DATOS FACTURACION</h1><p>ds_callenum => tiro al blanco No. Ext315 </p><p>ds_entrecalles => </p><p>ds_colonia => Centro</p><p>ds_ciudad => Campeche</p><p>ds_estado => Campeche</p><p>ds_cp => 35000</p><p>ds_rfc => XXXX010101X01</p><p>ds_razonsocial => test con factura</p><h1>DATOS VENTA</h1><p>ve_id => 115</p><p>cl_id => 2</p><p>ve_desc => Aplicacion Android
+2012-11-29 12:15:56.9103|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 30/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 0</p><p>OK</p>
+2012-11-29 12:28:02.1964|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:28:02.3425|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=116&cl_id=2&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=315&ds_intnum=&ds_colonia=Centro&ds_ciudad=Campeche&ds_estado=Campeche&ds_cp=35000&ds_rfc=XXXX010101X01&ds_razonsocial=test con factura
+2012-11-29 12:28:03.2605|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<h1>DATOS FACTURACION</h1><p>ds_callenum => tiro al blanco No. Ext 315 </p><p>ds_entrecalles => </p><p>ds_colonia => Centro</p><p>ds_ciudad => Campeche</p><p>ds_estado => Campeche</p><p>ds_cp => 35000</p><p>ds_rfc => XXXX010101X01</p><p>ds_razonsocial => test con factura</p><h1>DATOS VENTA</h1><p>ve_id => 116</p><p>cl_id => 2</p><p>ve_desc => Aplicacion Android
+2012-11-29 12:28:03.2655|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 30/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 0</p><p>OK</p>
+2012-11-29 12:28:50.9183|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2012-11-29 12:28:50.9183|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2012-11-29 12:28:58.6314|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2012-11-29 12:29:58.8814|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:29:59.0523|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=117&cl_id=2&ft_id=1&ve_desc=Sitio Web
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=1&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=315&ds_intnum=A&ds_colonia=Centro&ds_ciudad=Campeche&ds_estado=Campeche&ds_cp=35000&ds_rfc=XXXX010101X01&ds_razonsocial=test con factura
+2012-11-29 12:30:01.3842|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<h1>DATOS FACTURACION</h1><p>ds_callenum => tiro al blanco No. Ext 315 A</p><p>ds_entrecalles => </p><p>ds_colonia => Centro</p><p>ds_ciudad => Campeche</p><p>ds_estado => Campeche</p><p>ds_cp => 35000</p><p>ds_rfc => XXXX010101X01</p><p>ds_razonsocial => test con factura</p><h1>DATOS VENTA</h1><p>ve_id => 117</p><p>cl_id => 2</p><p>ve_desc => Sitio Web
+2012-11-29 12:30:01.3842|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 30/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 1</p><p>OK</p>
+2012-11-29 12:38:37.8848|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:38:37.9984|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=118&cl_id=2&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=01/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=315&ds_intnum=A&ds_colonia=Centro&ds_ciudad=Campeche&ds_estado=Campeche&ds_cp=35000&ds_rfc=XXXX010101X01&ds_razonsocial=test con factura
+2012-11-29 12:38:38.1665|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2012-11-29 12:38:38.1731|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Parse error</b>:  syntax error, unexpected T_VARIABLE in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>17</b><br />
+2012-11-29 12:38:38.1731|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2012-11-29 12:46:23.6014|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2012-11-29 12:46:23.7371|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=119&cl_id=2&ft_id=1&ve_desc=Aplicacion Android
+&ve_fecha=30/11/2012 12:00:00 a. m.&ve_monto=0.00000000&ve_tipo=F&isPayed=0&needInvoice=1&ds_calle=tiro al blanco&ds_extnum=315&ds_intnum=A&ds_colonia=Centro&ds_ciudad=Campeche&ds_estado=Campeche&ds_cp=35000&ds_rfc=XXXX010101X01&ds_razonsocial=test con factura
+2012-11-29 12:46:23.9405|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<h1>DATOS FACTURACION</h1><p>ds_callenum => tiro al blanco No. Ext 315 No. Int. A</p><p>ds_entrecalles => </p><p>ds_colonia => Centro</p><p>ds_ciudad => Campeche</p><p>ds_estado => Campeche</p><p>ds_cp => 35000</p><p>ds_rfc => XXXX010101X01</p><p>ds_razonsocial => test con factura</p><h1>DATOS VENTA</h1><p>ve_id => 119</p><p>cl_id => 2</p><p>ve_desc => Aplicacion Android
+2012-11-29 12:46:23.9405|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|</p><p>ve_fecha => 30/11/2012</p><p>ve_monto => 0.00000000</p><p>ve_tipo => F</p><p>ft_id => 1</p><p>isPayed => 0</p><p>OK</p>

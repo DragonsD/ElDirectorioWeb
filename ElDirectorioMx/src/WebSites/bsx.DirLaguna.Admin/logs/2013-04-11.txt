@@ -1,0 +1,4 @@
+2013-04-11 17:45:19.4597|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al subir Tarjeta
+2013-04-11 17:46:24.7911|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al subir Tarjeta
+2013-04-11 17:51:50.8847|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al subir Tarjeta
+2013-04-11 17:59:30.2081|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al subir Tarjeta

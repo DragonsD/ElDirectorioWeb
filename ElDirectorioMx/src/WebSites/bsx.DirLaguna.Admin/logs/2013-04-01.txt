@@ -1,0 +1,18 @@
+2013-04-01 20:11:44.9560|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:11:45.3611|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:11:48.0379|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-01 20:20:56.5789|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:20:56.7548|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:20:57.5059|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto
+2013-04-01 20:27:21.7262|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:27:21.8762|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:27:22.5640|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al guardar el anunciante
+2013-04-01 20:34:25.0119|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:34:25.0389|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:34:25.5860|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al guardar el anunciante
+2013-04-01 20:38:47.1454|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:38:47.1754|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:38:47.7565|ERROR|bsx.DirLaguna.CommonWeb.Base.PageTools|Error al guardar el anunciante
+2013-04-01 20:49:28.4290|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|Tratando de guardar un anuncinate
+2013-04-01 20:49:28.4560|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save()
+2013-04-01 20:49:28.8541|INFO|bsx.DirLaguna.CommonWeb.Base.PageTools|AdvertiserController.Save() -> correcto

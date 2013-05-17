@@ -1,0 +1,73 @@
+2013-04-17 15:38:23.7034|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-17 15:38:25.6266|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-17 15:38:28.5576|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-17 15:38:30.1386|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-17 15:38:30.7137|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-17 15:38:33.2558|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-17 15:38:34.0712|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-17 15:38:34.5118|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-17 15:38:35.0141|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-17 15:38:35.7918|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-17 15:38:35.9986|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-17 15:38:36.1436|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Categorias
+2013-04-17 15:38:37.2078|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Ciudades
+2013-04-17 15:38:37.7692|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Anunciantes
+2013-04-17 15:38:37.9642|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11749; Name: 100.3 F.M.
+2013-04-17 15:38:39.9375|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11958; Name: Advertiser30
+2013-04-17 15:38:40.5517|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11963; Name: Advertiser101
+2013-04-17 15:38:41.2182|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11966; Name: AB1000
+2013-04-17 15:38:41.6806|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Advertiser: Id:11993; Name: Anunciante02
+2013-04-17 15:38:42.1676|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Cargando Configuracion
+2013-04-17 15:38:42.2494|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|Copiando la nueva base de datos
+2013-04-17 17:26:36.2438|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== GENERACION DE LA BASE DE DATOS == 
+
+2013-04-17 17:27:49.2382|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|No se han encontrado modificaciones a la base de datos. Se suspende
+2013-04-17 17:27:50.6859|INFO|bsx.DirLaguna.iOsDataStorage.DataBuilder|== FIN DE LA GENERACION ==
+
+2013-04-17 17:31:15.5036|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-17 17:31:15.6017|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=127&ft_id=1&ve_desc=Destacado (1)
+Numero de Cupones
+Sitio Web
+Aplicacion iOs 
+Aplicacion Android
+Categorias adicionales (1)
+&ve_fecha=13/02/2014 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=0&PromiseDate=17/04/2013 0:00:00
+2013-04-17 17:31:15.9179|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2013-04-17 17:31:15.9179|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>47</b><br />
+2013-04-17 17:31:15.9179|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2013-04-17 17:31:15.9329|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2013-04-17 18:21:06.6427|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-17 18:21:06.9335|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=129&ft_id=1&ve_desc=Destacado (1)
+Numero de Cupones
+Aplicacion iOs 
+Aplicacion Android
+&ve_fecha=17/04/2014 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=0&PromiseDate=17/04/2013 0:00:00
+2013-04-17 18:21:08.2788|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2013-04-17 18:21:08.2828|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>47</b><br />
+2013-04-17 18:21:08.2828|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2013-04-17 18:21:08.2948|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2013-04-17 18:22:41.7428|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-17 18:22:41.8288|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=129&ft_id=1&ve_desc=Destacado (1)
+Numero de Cupones
+Aplicacion iOs 
+Aplicacion Android
+&ve_fecha=17/04/2014 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=0&PromiseDate=09/04/2013 0:00:00
+2013-04-17 18:22:41.9328|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2013-04-17 18:22:41.9328|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>47</b><br />
+2013-04-17 18:22:41.9428|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2013-04-17 18:22:41.9428|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error
+2013-04-17 18:25:29.9632|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>>>> Tratando de enviar una peticion a prospectacion
+2013-04-17 18:25:30.0522|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|>> PROS: http://eldirectorio.mx/prospectos/recventa.php?ve_id=41&ft_id=1&ve_desc=Numero de Sucursales (2)
+Numero de Galerias (1)
+Destacado (1)
+Numero de Cupones
+Sitio Web
+Aplicacion iOs 
+Contenido enriquecido (1)
+Aplicacion Android
+&ve_fecha=01/07/2012 0:00:00&ve_monto=0,00000000&ve_tipo=F&isPayed=1&needInvoice=0
+2013-04-17 18:25:30.2848|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<br />
+2013-04-17 18:25:30.2848|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<b>Warning</b>:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in <b>C:\inetpub\vhosts\eldirectorio.mx\httpdocs\prospectos\recventa.php</b> on line <b>47</b><br />
+2013-04-17 18:25:30.3038|INFO|bsx.DirLaguna.Admin.Code.ProspectationHelper|<p>ERROR2</p>
+2013-04-17 18:25:30.3038|ERROR|bsx.DirLaguna.Admin.Code.ProspectationHelper|Ha ocurrido un error

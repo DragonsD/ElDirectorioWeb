@@ -1,0 +1,53 @@
+2013-01-28 10:17:57.0520|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:17:57.1250|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:17:57.1250|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:17:57.1700|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:17:57.1850|INFO|bsx.DirLaguna.Admin.Code.WriterBase|Guardando un franquiciatario
+2013-01-28 10:17:57.1850|INFO|bsx.DirLaguna.Admin.Code.WriterBase|El ususario no es nuevo
+2013-01-28 10:19:34.4501|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:19:34.4611|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:19:34.4611|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:19:34.4611|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:19:34.4611|INFO|bsx.DirLaguna.Admin.Code.WriterBase|No llegaron todos los datos necesarios para cambiar el password de una cuenta
+2013-01-28 10:20:20.2509|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:20:20.2509|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:20:20.2509|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:20:20.2509|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:20:20.2569|INFO|bsx.DirLaguna.Admin.Code.WriterBase|No llegaron todos los datos necesarios para cambiar el password de una cuenta
+2013-01-28 10:23:32.9431|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:23:32.9451|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:23:32.9451|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:23:32.9451|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:23:38.8491|INFO|bsx.DirLaguna.Admin.Code.WriterBase|Guardando un franquiciatario
+2013-01-28 10:23:42.6888|INFO|bsx.DirLaguna.Admin.Code.WriterBase|El ususario no es nuevo
+2013-01-28 10:23:56.6179|ERROR|bsx.DirLaguna.Admin.Code.WriterBase|El password de Advertiser101 se ha cambiado exiosamente
+2013-01-28 10:38:03.8751|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:38:03.8831|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:38:03.8831|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:38:03.8831|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:38:08.0850|INFO|bsx.DirLaguna.Admin.Code.WriterBase|No llegaron todos los datos necesarios para cambiar el password de una cuenta
+2013-01-28 10:41:25.6669|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Peticion recibida
+2013-01-28 10:41:25.6669|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|----------------------------------------------------------------------------------------------
+2013-01-28 10:41:25.6669|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|Loggin Details 
+
+2013-01-28 10:41:25.6669|DEBUG|bsx.DirLaguna.Admin.Code.WriterBase|
+----------------------------------------------------------------------------------------------
+
+2013-01-28 10:41:29.0250|INFO|bsx.DirLaguna.Admin.Code.WriterBase|Guardando un franquiciatario
+2013-01-28 10:41:30.3381|INFO|bsx.DirLaguna.Admin.Code.WriterBase|El ususario no es nuevo
+2013-01-28 10:41:41.7453|ERROR|bsx.DirLaguna.Admin.Code.WriterBase|El password de Advertiser101 se ha cambiado exiosamente

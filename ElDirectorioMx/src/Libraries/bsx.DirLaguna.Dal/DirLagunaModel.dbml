@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DirLagunaDb" Class="DirLagunaModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=NACHT-PC;Initial Catalog=DirLagunaDb;User ID=sa;Password=admin1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AccountConcept" Member="AccountConcepts">
+    <Type Name="AccountConcept">
+      <Column Name="AccountConceptId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ConceptKey" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="GorilaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalMax" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MinValue" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Association Name="AccountConcept_AccountDetail" Member="AccountDetails" ThisKey="AccountConceptId" OtherKey="AccountConceptId" Type="AccountDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tag" Member="Tags">
+    <Type Name="Tag">
+      <Column Name="TagId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Franchisee_Tag" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Advertiser_Tag" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AccountDetail" Member="AccountDetails">
+    <Type Name="AccountDetail">
+      <Column Name="AccountDetailId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContractId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountConceptId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="AccountConcept_AccountDetail" Member="AccountConcept" ThisKey="AccountConceptId" OtherKey="AccountConceptId" Type="AccountConcept" IsForeignKey="true" />
+      <Association Name="Contract_AccountDetail" Member="Contract" ThisKey="ContractId" OtherKey="ContractId" Type="Contract" IsForeignKey="true" />
+      <Association Name="Advertiser_AccountDetail" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AdvertiserCategory" Member="AdvertiserCategories">
+    <Type Name="AdvertiserCategory">
+      <Column Name="AdvertiserCategoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Category_AdvertiserCategory" Member="Category" ThisKey="CategoryId" OtherKey="CategoryId" Type="Category" IsForeignKey="true" />
+      <Association Name="Franchisee_AdvertiserCategory" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Advertiser_AdvertiserCategory" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Announce" Member="Announces">
+    <Type Name="Announce">
+      <Column Name="AnnounceId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Franchisee_Announce" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Page_Announce" Member="Page" ThisKey="PageId" OtherKey="PageId" Type="Page" IsForeignKey="true" />
+      <Association Name="Advertiser_Announce" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Applications" Member="aspnet_Applications">
+    <Type Name="aspnet_Application">
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredApplicationName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="aspnet_Application_aspnet_Membership" Member="aspnet_Memberships" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Membership" />
+      <Association Name="aspnet_Application_aspnet_Path" Member="aspnet_Paths" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Path" />
+      <Association Name="aspnet_Application_aspnet_Role" Member="aspnet_Roles" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Role" />
+      <Association Name="aspnet_Application_aspnet_User" Member="aspnet_Users" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_User" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Membership" Member="aspnet_Memberships">
+    <Type Name="aspnet_Membership">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordFormat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordSalt" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MobilePIN" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="LoweredEmail" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PasswordQuestion" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PasswordAnswer" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsLockedOut" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastLoginDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastPasswordChangedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastLockoutDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAttemptCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAttemptWindowStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAnswerAttemptCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAnswerAttemptWindowStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="aspnet_Application_aspnet_Membership" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+      <Association Name="aspnet_User_aspnet_Membership" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Paths" Member="aspnet_Paths">
+    <Type Name="aspnet_Path">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PathId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Path" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredPath" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_Path_aspnet_PersonalizationAllUser" Member="aspnet_PersonalizationAllUser" ThisKey="PathId" OtherKey="PathId" Type="aspnet_PersonalizationAllUser" Cardinality="One" />
+      <Association Name="aspnet_Path_aspnet_PersonalizationPerUser" Member="aspnet_PersonalizationPerUsers" ThisKey="PathId" OtherKey="PathId" Type="aspnet_PersonalizationPerUser" />
+      <Association Name="aspnet_Application_aspnet_Path" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_PersonalizationAllUsers" Member="aspnet_PersonalizationAllUsers">
+    <Type Name="aspnet_PersonalizationAllUser">
+      <Column Name="PathId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PageSettings" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="LastUpdatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_Path_aspnet_PersonalizationAllUser" Member="aspnet_Path" ThisKey="PathId" OtherKey="PathId" Type="aspnet_Path" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_PersonalizationPerUser" Member="aspnet_PersonalizationPerUsers">
+    <Type Name="aspnet_PersonalizationPerUser">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PathId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="PageSettings" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="LastUpdatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_Path_aspnet_PersonalizationPerUser" Member="aspnet_Path" ThisKey="PathId" OtherKey="PathId" Type="aspnet_Path" IsForeignKey="true" />
+      <Association Name="aspnet_User_aspnet_PersonalizationPerUser" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Profile" Member="aspnet_Profiles">
+    <Type Name="aspnet_Profile">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PropertyNames" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="PropertyValuesString" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="PropertyValuesBinary" Type="System.Data.Linq.Binary" DbType="Image NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="LastUpdatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_User_aspnet_Profile" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Roles" Member="aspnet_Roles">
+    <Type Name="aspnet_Role">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredRoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="aspnet_Role_aspnet_UsersInRole" Member="aspnet_UsersInRoles" ThisKey="RoleId" OtherKey="RoleId" Type="aspnet_UsersInRole" />
+      <Association Name="aspnet_Application_aspnet_Role" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_SchemaVersions" Member="aspnet_SchemaVersions">
+    <Type Name="aspnet_SchemaVersion">
+      <Column Name="Feature" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompatibleSchemaVersion" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IsCurrentVersion" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Users" Member="aspnet_Users">
+    <Type Name="aspnet_User">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredUserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileAlias" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="IsAnonymous" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LastActivityDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_User_aspnet_Membership" Member="aspnet_Membership" ThisKey="UserId" OtherKey="UserId" Type="aspnet_Membership" Cardinality="One" />
+      <Association Name="aspnet_User_aspnet_PersonalizationPerUser" Member="aspnet_PersonalizationPerUsers" ThisKey="UserId" OtherKey="UserId" Type="aspnet_PersonalizationPerUser" />
+      <Association Name="aspnet_User_aspnet_Profile" Member="aspnet_Profile" ThisKey="UserId" OtherKey="UserId" Type="aspnet_Profile" Cardinality="One" />
+      <Association Name="aspnet_User_aspnet_UsersInRole" Member="aspnet_UsersInRoles" ThisKey="UserId" OtherKey="UserId" Type="aspnet_UsersInRole" />
+      <Association Name="aspnet_User_Advertiser" Member="Advertiser" ThisKey="UserId" OtherKey="UserId" Type="Advertiser" />
+      <Association Name="aspnet_Application_aspnet_User" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_UsersInRoles" Member="aspnet_UsersInRoles">
+    <Type Name="aspnet_UsersInRole">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="aspnet_Role_aspnet_UsersInRole" Member="aspnet_Role" ThisKey="RoleId" OtherKey="RoleId" Type="aspnet_Role" IsForeignKey="true" />
+      <Association Name="aspnet_User_aspnet_UsersInRole" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_WebEvent_Events" Member="aspnet_WebEvent_Events">
+    <Type Name="aspnet_WebEvent_Event">
+      <Column Name="EventId" Type="System.String" DbType="Char(32) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EventTimeUtc" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EventTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EventType" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="EventSequence" Type="System.Decimal" DbType="Decimal(19,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EventOccurrence" Type="System.Decimal" DbType="Decimal(19,0) NOT NULL" CanBeNull="false" />
+      <Column Name="EventCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EventDetailCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Column Name="ApplicationPath" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ApplicationVirtualPath" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="RequestUrl" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Column Name="ExceptionType" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="Details" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Banner" Member="Banners">
+    <Type Name="Banner">
+      <Column Name="BannerId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(512)" CanBeNull="true" />
+      <Column Name="Link" Type="System.String" DbType="VarChar(512)" CanBeNull="true" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Letter" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Weight" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Category_AdvertiserCategory" Member="AdvertiserCategories" ThisKey="CategoryId" OtherKey="CategoryId" Type="AdvertiserCategory" />
+      <Association Name="Category_CatPublicity" Member="CatPublicities" ThisKey="CategoryId" OtherKey="CategoryId" Type="CatPublicity" />
+      <Association Name="Category_CouponCategory" Member="CouponCategories" ThisKey="CategoryId" OtherKey="CategoryId" Type="CouponCategory" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatPublicity" Member="CatPublicities">
+    <Type Name="CatPublicity">
+      <Column Name="CatPublicityId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="PublicityFile" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Available" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FromDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ToDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Category_CatPublicity" Member="Category" ThisKey="CategoryId" OtherKey="CategoryId" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Contract" Member="Contracts">
+    <Type Name="Contract">
+      <Column Name="ContractId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContractDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Months" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PersonalId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreationDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IsPaid" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="InvoiceId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PayPalTransactionId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PaymentAmount" Type="System.Decimal" DbType="Decimal(18,8)" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="UsedReference" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="WebSite" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="iOs" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Android" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PromiseDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Folio" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="InvoiceCreator" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="InvoiceCreation" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PaymentUser" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaymentDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Contract_AccountDetail" Member="AccountDetails" ThisKey="ContractId" OtherKey="ContractId" Type="AccountDetail" />
+      <Association Name="Advertiser_Contract" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CouponCategory" Member="CouponCategories">
+    <Type Name="CouponCategory">
+      <Column Name="CouponCategoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CouponId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Category_CouponCategory" Member="Category" ThisKey="CategoryId" OtherKey="CategoryId" Type="Category" IsForeignKey="true" />
+      <Association Name="Coupon_CouponCategory" Member="Coupon" ThisKey="CouponId" OtherKey="CouponId" Type="Coupon" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CouponSet" Member="CouponSets">
+    <Type Name="CouponSet">
+      <Column Name="CouponSetId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="CouponSet_Coupon" Member="Coupon" ThisKey="CouponSetId" OtherKey="CouponSetId" Type="Coupon" />
+      <Association Name="Franchisee_CouponSet" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Personal_CouponSet" Member="Personal" ThisKey="CreatedBy" OtherKey="PersonalId" Type="Personal" IsForeignKey="true" />
+      <Association Name="Personal_CouponSet1" Member="Personal1" ThisKey="ModifiedBy" OtherKey="PersonalId" Type="Personal" IsForeignKey="true" />
+      <Association Name="Advertiser_CouponSet" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CouponStatus" Member="CouponStatus">
+    <Type Name="CouponStatus">
+      <Column Name="CouponStatusId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="CouponStatus_Coupon" Member="Coupon" ThisKey="CouponStatusId" OtherKey="CouponStatusId" Type="Coupon" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Email" Member="Emails">
+    <Type Name="Email">
+      <Column Name="EmailId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Advertiser_Email" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Estado" Member="Estados">
+    <Type Name="Estado">
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Estado_FiscalDetail" Member="FiscalDetails" ThisKey="EstadoId" OtherKey="EstadoId" Type="FiscalDetail" />
+      <Association Name="Estado_Municipio" Member="Municipios" ThisKey="EstadoId" OtherKey="EstadoId" Type="Municipio" />
+      <Association Name="Estado_PublicityAdvertiser" Member="PublicityAdvertiser" ThisKey="EstadoId" OtherKey="EstadoId" Type="PublicityAdvertiser" />
+      <Association Name="Estado_Advertiser" Member="Advertiser" ThisKey="EstadoId" OtherKey="EstadoId" Type="Advertiser" />
+      <Association Name="Estado_City" Member="City" ThisKey="EstadoId" OtherKey="EstadoId" Type="City" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FiscalDetail" Member="FiscalDetails">
+    <Type Name="FiscalDetail">
+      <Column Name="FiscalDetailId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RFC" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="IsMoralPerson" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Poblacion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Street" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExteriorNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="InteriorNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Colony" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ZipCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactEmail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FiscalDetail_Franchisee" Member="Franchisees" ThisKey="FiscalDetailId" OtherKey="FiscalDetailId" Type="Franchisee" />
+      <Association Name="FiscalDetail_Advertiser" Member="Advertiser" ThisKey="FiscalDetailId" OtherKey="FiscalDetailId" Type="Advertiser" />
+      <Association Name="Estado_FiscalDetail" Member="Estado" ThisKey="EstadoId" OtherKey="EstadoId" Type="Estado" IsForeignKey="true" />
+      <Association Name="Municipio_FiscalDetail" Member="Municipio" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Municipio" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Franchisee" Member="Franchisees">
+    <Type Name="Franchisee">
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FiscalDetailId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="IsPrimary" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Rfc" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="GorilaKey" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CellPhone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ShareLevelId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExternalKey" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BankReference" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DV" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="GorilaOfficeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GorilaBankId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Franchisee_Tag" Member="Tags" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Tag" />
+      <Association Name="Franchisee_AdvertiserCategory" Member="AdvertiserCategories" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="AdvertiserCategory" />
+      <Association Name="Franchisee_Announce" Member="Announces" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Announce" />
+      <Association Name="Franchisee_CouponSet" Member="CouponSets" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="CouponSet" />
+      <Association Name="Franchisee_Gallery" Member="Galleries" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Gallery" />
+      <Association Name="Franchisee_Office" Member="Offices" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Office" />
+      <Association Name="Franchisee_Personal" Member="Personals" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Personal" />
+      <Association Name="Franchisee_Phone" Member="Phones" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Phone" />
+      <Association Name="Franchisee_Picture" Member="Pictures" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Picture" />
+      <Association Name="Franchisee_Coupon" Member="Coupon" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Coupon" />
+      <Association Name="Franchisee_Advertiser" Member="Advertiser" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Advertiser" />
+      <Association Name="FiscalDetail_Franchisee" Member="FiscalDetail" ThisKey="FiscalDetailId" OtherKey="FiscalDetailId" Type="FiscalDetail" IsForeignKey="true" />
+      <Association Name="Municipio_Franchisee" Member="Municipio" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Municipio" IsForeignKey="true" />
+      <Association Name="ShareLevel_Franchisee" Member="ShareLevel" ThisKey="ShareLevelId" OtherKey="ShareLevelId" Type="ShareLevel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gallery" Member="Galleries">
+    <Type Name="Gallery">
+      <Column Name="GalleryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Gallery_Picture" Member="Pictures" ThisKey="GalleryId" OtherKey="GalleryId" Type="Picture" />
+      <Association Name="Franchisee_Gallery" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Advertiser_Gallery" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GeneralSetUp" Member="GeneralSetUps">
+    <Type Name="GeneralSetUp">
+      <Column Name="GeneralSetUpId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FrontPageMarkup" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FrontPageMarkupIphone" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FranchiseeMarkup" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="AdvertiserMarkup" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="GeneralSetUp_GenPublicity" Member="GenPublicities" ThisKey="GeneralSetUpId" OtherKey="GeneralSetUpId" Type="GenPublicity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GenPublicity" Member="GenPublicities">
+    <Type Name="GenPublicity">
+      <Column Name="GenPublicityId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GeneralSetUpId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="PublicityFile" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Available" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FromDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ToDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="GeneralSetUp_GenPublicity" Member="GeneralSetUp" ThisKey="GeneralSetUpId" OtherKey="GeneralSetUpId" Type="GeneralSetUp" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Municipio" Member="Municipios">
+    <Type Name="Municipio">
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Municipio_FiscalDetail" Member="FiscalDetails" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="FiscalDetail" />
+      <Association Name="Municipio_Franchisee" Member="Franchisees" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Franchisee" />
+      <Association Name="Municipio_Office" Member="Offices" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Office" />
+      <Association Name="Municipio_PublicityAdvertiser" Member="PublicityAdvertiser" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="PublicityAdvertiser" />
+      <Association Name="Municipio_Advertiser" Member="Advertiser" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Advertiser" />
+      <Association Name="Estado_Municipio" Member="Estado" ThisKey="EstadoId" OtherKey="EstadoId" Type="Estado" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Office" Member="Offices">
+    <Type Name="Office">
+      <Column Name="OfficeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="MapReferenceX" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="MapReferenceY" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Number" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Neibornhod" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Franchisee_Office" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Municipio_Office" Member="Municipio" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Municipio" IsForeignKey="true" />
+      <Association Name="Advertiser_Office" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+      <Association Name="City_Office" Member="City" ThisKey="CityId" OtherKey="CityId" Type="City" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Page" Member="Pages">
+    <Type Name="Page">
+      <Column Name="PageId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SyncNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SyncDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModiefiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Page_Announce" Member="Announces" ThisKey="PageId" OtherKey="PageId" Type="Announce" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Personal" Member="Personals">
+    <Type Name="Personal">
+      <Column Name="PersonalId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="PersonalTypeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Personal_CouponSet" Member="CouponSets" ThisKey="PersonalId" OtherKey="CreatedBy" Type="CouponSet" />
+      <Association Name="Personal_CouponSet1" Member="CouponSets1" ThisKey="PersonalId" OtherKey="ModifiedBy" Type="CouponSet" />
+      <Association Name="Personal_Coupon" Member="Coupon1" ThisKey="PersonalId" OtherKey="CreatedBy" Type="Coupon" />
+      <Association Name="Personal_Coupon1" Member="Coupon" ThisKey="PersonalId" OtherKey="ModifiedBy" Type="Coupon" />
+      <Association Name="Personal_Advertiser" Member="Advertiser" ThisKey="PersonalId" OtherKey="PersonalId" Type="Advertiser" />
+      <Association Name="Franchisee_Personal" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="PersonalType_Personal" Member="PersonalType" ThisKey="PersonalTypeId" OtherKey="PersonalTypeId" Type="PersonalType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PersonalType" Member="PersonalTypes">
+    <Type Name="PersonalType">
+      <Column Name="PersonalTypeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="PersonalType_Personal" Member="Personals" ThisKey="PersonalTypeId" OtherKey="PersonalTypeId" Type="Personal" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Phone" Member="Phones">
+    <Type Name="Phone">
+      <Column Name="PhoneId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneTypeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Franchisee_Phone" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="PhoneType_Phone" Member="PhoneType" ThisKey="PhoneTypeId" OtherKey="PhoneTypeId" Type="PhoneType" IsForeignKey="true" />
+      <Association Name="Advertiser_Phone" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhoneType" Member="PhoneTypes">
+    <Type Name="PhoneType">
+      <Column Name="PhoneTypeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="PhoneType_Phone" Member="Phones" ThisKey="PhoneTypeId" OtherKey="PhoneTypeId" Type="Phone" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Picture" Member="Pictures">
+    <Type Name="Picture">
+      <Column Name="PictureId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GalleryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Franchisee_Picture" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Gallery_Picture" Member="Gallery" ThisKey="GalleryId" OtherKey="GalleryId" Type="Gallery" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ShareLevel" Member="ShareLevels">
+    <Type Name="ShareLevel">
+      <Column Name="ShareLevelId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Percentage" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="ShareLevel_Franchisee" Member="Franchisees" ThisKey="ShareLevelId" OtherKey="ShareLevelId" Type="Franchisee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SqliteUpdate" Member="SqliteUpdates">
+    <Type Name="SqliteUpdate">
+      <Column Name="SqliteUpdateId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ActiveRecords" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AndroidRecords" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Status" Member="Status">
+    <Type Name="Status">
+      <Column Name="StatusId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VwCategories" Member="VwCategories">
+    <Type Name="VwCategory">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="letter" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Tags" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Coupon" Member="Coupon">
+    <Type Name="Coupon">
+      <Column Name="CouponId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CouponSetId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CouponStatusId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Conditions" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="HowToCash" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="HasPicture" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsExpirable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsNationale" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isClub" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Coupon_CouponCategory" Member="CouponCategory" ThisKey="CouponId" OtherKey="CouponId" Type="CouponCategory" />
+      <Association Name="CouponSet_Coupon" Member="CouponSet" ThisKey="CouponSetId" OtherKey="CouponSetId" Type="CouponSet" IsForeignKey="true" />
+      <Association Name="CouponStatus_Coupon" Member="CouponStatus" ThisKey="CouponStatusId" OtherKey="CouponStatusId" Type="CouponStatus" IsForeignKey="true" />
+      <Association Name="Franchisee_Coupon" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Personal_Coupon" Member="Personal" ThisKey="CreatedBy" OtherKey="PersonalId" Type="Personal" IsForeignKey="true" />
+      <Association Name="Personal_Coupon1" Member="Personal1" ThisKey="ModifiedBy" OtherKey="PersonalId" Type="Personal" IsForeignKey="true" />
+      <Association Name="Advertiser_Coupon" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PublicityAdvertiser" Member="PublicityAdvertiser">
+    <Type Name="PublicityAdvertiser">
+      <Column Name="PublicityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UrlPublicity" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="Estado_PublicityAdvertiser" Member="Estado" ThisKey="EstadoId" OtherKey="EstadoId" Type="Estado" IsForeignKey="true" />
+      <Association Name="Municipio_PublicityAdvertiser" Member="Municipio" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Municipio" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VwAdvertiser" Member="VwAdvertiser">
+    <Type Name="VwAdvertiser">
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Letter" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="WebPage" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CityName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Tags" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PromocionesClub" Type="System.String" DbType="VarChar(110)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Advertiser" Member="Advertiser">
+    <Type Name="Advertiser">
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Contact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="WebPage" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Tags" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Facebook" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="MapReferenceX" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="MapReferenceY" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AditionalInfo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FranchiseeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PersonalId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserCreatedOn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModifiedOn" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FiscalDetailId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MunicipioId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExternalKey" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NumberKey" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DV" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="YoutubeVideo" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" />
+      <Column Name="Featured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PromocionesClub" Type="System.String" DbType="VarChar(110)" CanBeNull="true" />
+      <Association Name="Advertiser_Tag" Member="Tag" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Tag" />
+      <Association Name="Advertiser_AccountDetail" Member="AccountDetail" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="AccountDetail" />
+      <Association Name="Advertiser_AdvertiserCategory" Member="AdvertiserCategory" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="AdvertiserCategory" />
+      <Association Name="Advertiser_Announce" Member="Announce" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Announce" />
+      <Association Name="Advertiser_Contract" Member="Contract" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Contract" />
+      <Association Name="Advertiser_CouponSet" Member="CouponSet" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="CouponSet" />
+      <Association Name="Advertiser_Email" Member="Email" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Email" />
+      <Association Name="Advertiser_Gallery" Member="Gallery" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Gallery" />
+      <Association Name="Advertiser_Office" Member="Office" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Office" />
+      <Association Name="Advertiser_Phone" Member="Phone" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Phone" />
+      <Association Name="Advertiser_Coupon" Member="Coupon" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Coupon" />
+      <Association Name="Advertiser_ClubCard" Member="ClubCard" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="ClubCard" />
+      <Association Name="aspnet_User_Advertiser" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+      <Association Name="Estado_Advertiser" Member="Estado" ThisKey="EstadoId" OtherKey="EstadoId" Type="Estado" IsForeignKey="true" />
+      <Association Name="FiscalDetail_Advertiser" Member="FiscalDetail" ThisKey="FiscalDetailId" OtherKey="FiscalDetailId" Type="FiscalDetail" IsForeignKey="true" />
+      <Association Name="Franchisee_Advertiser" Member="Franchisee" ThisKey="FranchiseeId" OtherKey="FranchiseeId" Type="Franchisee" IsForeignKey="true" />
+      <Association Name="Municipio_Advertiser" Member="Municipio" ThisKey="MunicipioId" OtherKey="MunicipioId" Type="Municipio" IsForeignKey="true" />
+      <Association Name="Personal_Advertiser" Member="Personal" ThisKey="PersonalId" OtherKey="PersonalId" Type="Personal" IsForeignKey="true" />
+      <Association Name="City_Advertiser" Member="City" ThisKey="CityId" OtherKey="CityId" Type="City" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClubCard" Member="ClubCard">
+    <Type Name="ClubCard">
+      <Column Name="CardID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GuestId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaExpedicion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Expira" Type="System.DateTime" DbType="DateTime" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Folio" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Advertiser_ClubCard" Member="Advertiser" ThisKey="AdvertiserId" OtherKey="AdvertiserId" Type="Advertiser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VwCardClubGuest" Member="VwCardClubGuest">
+    <Type Name="VwCardClubGuest">
+      <Column Name="CardID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdvertiserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Folio" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="FechaExpedicion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Expira" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="City" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.City" Member="City">
+    <Type Name="City">
+      <Column Name="CityId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="EstadoId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ZonaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="City_Office" Member="Office" ThisKey="CityId" OtherKey="CityId" Type="Office" />
+      <Association Name="City_Advertiser" Member="Advertiser" ThisKey="CityId" OtherKey="CityId" Type="Advertiser" />
+      <Association Name="City_Publicity" Member="Publicity" ThisKey="CityId" OtherKey="CityId" Type="Publicity" />
+      <Association Name="Estado_City" Member="Estado" ThisKey="EstadoId" OtherKey="EstadoId" Type="Estado" IsForeignKey="true" />
+      <Association Name="ZonaMetropolitana_City" Member="ZonaMetropolitana" ThisKey="ZonaId" OtherKey="ZonaId" Type="ZonaMetropolitana" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ZonaMetropolitana" Member="ZonaMetropolitana">
+    <Type Name="ZonaMetropolitana">
+      <Column Name="ZonaId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="ZonaMetropolitana_City" Member="City" ThisKey="ZonaId" OtherKey="ZonaId" Type="City" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Publicity" Member="Publicity">
+    <Type Name="Publicity">
+      <Column Name="PublicityID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WebPage" Type="System.String" DbType="VarChar(120)" CanBeNull="true" />
+      <Column Name="Prioridad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="City_Publicity" Member="City" ThisKey="CityId" OtherKey="CityId" Type="City" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
